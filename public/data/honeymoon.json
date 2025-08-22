@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "PAKET HONEYMOON LOMBOK\n3 HARI 2 MALAM",
+    "description": "Nikmati keindahan pantai dan sawah terasering di Bali, sempurna untuk pasangan yang mencari ketenangan dan petualangan.",
+    "price": "4.750.000",
+    "imageUrl": "/tourimage/HNM.jpg",
+    "link": "/packet/honeymoon3H2M"
+  },
+  {
+    "id": 2,
+    "name": "PAKET HONEYMOON LOMBOK\n4 HARI 3 MALAM",
+    "description": "Habiskan hari-hari romantis Anda di Gili Trawangan, menikmati pemandangan matahari terbenam yang memukau dan makan malam pribadi di tepi pantai.",
+    "price": "5.500.000",
+    "imageUrl": "/tourimage/HNM2.jpg",
+    "link": "/packet/honeymoon4H3M"
+  }
+]

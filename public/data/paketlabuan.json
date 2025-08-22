@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "PAKET TOUR KOMODO\n3 HARI 2 MALAM",
+    "description": "Nikmati keindahan pantai dan sawah terasering di Bali, sempurna untuk pasangan yang mencari ketenangan dan petualangan.",
+    "price": "3.250.000",
+    "imageUrl": "/tourimage/PKTKM3H2M.jpg",
+    "link": "/packet/Tour-komodo3H2M"
+  },
+  {
+    "id": 2,
+    "name": "PAKET TOUR KOMODO\n4 HARI 3 MALAM",
+    "description": "Habiskan hari-hari romantis Anda di Gili Trawangan, menikmati pemandangan matahari terbenam yang memukau dan makan malam pribadi di tepi pantai.",
+    "price": "5.500.000",
+    "imageUrl": "/tourimage/PKTKM4H3M.jpg",
+    "link": "/packet/Tour-komodo4H3M"
+  }
+]

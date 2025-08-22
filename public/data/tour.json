@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "imageUrl": "/tourimage/trip-gili.jpg",
+    "name": "TRIP GILI TRAWANGAN",
+    "description": "Paket wisata sehari mengeksplorasi Gili Trawangan dengan snorkeling di spot terbaik, mengunjungi turtle point, dan menikmati sunset di pantai.",
+    "price": "100.000",
+    "link": "tours/trip-gili"
+  },
+  {
+    "id": 2,
+    "imageUrl": "/tourimage/trip-sasak.jpg",
+    "name": "TRIP SASAK MANDALIKA",
+    "description": "Pengalaman budaya suku Sasak di Desa Sade, melihat proses tenun tradisional, dan menjelajahi keindahan Mandalika dengan pantai-pantainya yang memukau.",
+    "price": "200.000",
+    "link": "/tours/trip-sasak"
+  },
+  {
+    "id": 3,
+    "imageUrl": "/tourimage/trip-pantaipink.jpg",
+    "name": "TRIP PANTAI PINK",
+    "description": "Petualangan ke Pantai Pink Lombok yang eksotis, termasuk snorkeling di sekitar gili dan melihat keunikan pasir berwarna kemerahan.",
+    "price": "200.000",
+    "link": "/tours/trip-pantaipink"
+  },
+  {
+    "id": 4,
+    "imageUrl": "/tourimage/trip-gili-nanggu.jpg",
+    "name": "TRIP GILI NANGGU",
+    "description": "Wisata bahari ke Gili Nanggu yang masih alami, termasuk snorkeling dengan ikan hias dan berjemur di pantai berpasir putih.",
+    "price": "200.000",
+    "link": "/tours/trip-gili-nanggu"
+  },
+  {
+    "id": 5,
+    "imageUrl": "/tourimage/trip-air-terjun.jpg",
+    "name": "TRIP AIR TERJUN",
+    "description": "Tracking menuju air terjun Tiu Kelep atau Sendang Gile yang spektakuler, melewati hutan tropis dan pemandangan alam yang memesona.",
+    "price": "200.000",
+    "link": "/tours/trip-air-terjun"
+  }
+]
