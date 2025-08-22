@@ -4,7 +4,7 @@
     "imageUrl": "/tourimage/trip-gili.jpg",
     "name": "TRIP GILI TRAWANGAN",
     "description": "Paket wisata sehari mengeksplorasi Gili Trawangan dengan snorkeling di spot terbaik, mengunjungi turtle point, dan menikmati sunset di pantai.",
-    "price": "100.000",
+    "price": "650.000",
     "link": "tours/trip-gili"
   },
   {
@@ -38,5 +38,14 @@
     "description": "Tracking menuju air terjun Tiu Kelep atau Sendang Gile yang spektakuler, melewati hutan tropis dan pemandangan alam yang memesona.",
     "price": "200.000",
     "link": "/tours/trip-air-terjun"
+  },
+  {
+    "id": 8,
+    "imageUrl": "/tourimage/trip-sembalun.jpg",
+    "name": "TRIP SEMBALUN",
+    "description": "Tracking menuju air terjun Tiu Kelep atau Sendang Gile yang spektakuler, melewati hutan tropis dan pemandangan alam yang memesona.",
+    "price": "200.000",
+    "link": "/tours/trip-sembalun"
   }
+
 ]

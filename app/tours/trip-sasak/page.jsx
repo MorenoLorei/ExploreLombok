@@ -1,433 +1,151 @@
 "use client";
-import Image from "next/image";
-import { useState } from "react";
+import Link from "next/link";
+import React from "react";
 
-export default function SasakTourMandalika() {
-    const [activeAccordion, setActiveAccordion] = useState(null);
-
-    const toggleAccordion = (index) => {
-        setActiveAccordion(activeAccordion === index ? null : index);
-    };
-
+export default function TripSasakMandalika() {
     return (
-        <section className="py-16 bg-white">
-            <div className="container mx-auto px-4">
-                {/* Hero Section */}
-                <div className="relative w-full h-[500px] rounded-2xl overflow-hidden shadow-lg mb-16">
-                    <Image
-                        src="/tourimage/mandalika-hero.jpg"
-                        alt="Mandalika Beach"
-                        fill
-                        className="object-cover brightness-75"
-                        priority
-                    />
-                    <div className="absolute inset-0 flex items-center justify-center text-center px-4">
-                        <div>
-                            <h1 className="text-4xl md:text-6xl font-bold text-white mb-4 drop-shadow-lg">
-                                Sasak Tour Mandalika
-                            </h1>
-                            <p className="text-xl text-white max-w-2xl mx-auto drop-shadow-md">
-                                Jelajahi Keindahan Budaya & Pantai Eksotis Lombok Selatan
-                            </p>
-                        </div>
-                    </div>
+        <div className="max-w-5xl mx-auto p-6 bg-gray-50 min-h-screen font-sans text-gray-800">
+            {/* Header Section */}
+            <div className="bg-white rounded-xl p-8 text-center mb-12 shadow-sm border border-gray-200">
+                <div className="inline-block bg-blue-100 text-blue-800 px-4 py-1 rounded-full text-sm font-semibold mb-4 tracking-wide">
+                    Tour Harian
                 </div>
+                <h1 className="text-4xl md:text-5xl font-extrabold mb-6 text-gray-900 leading-tight">
+                    Trip Sasak Mandalika
+                </h1>
+                <p className="text-gray-600 text-lg leading-relaxed max-w-3xl mx-auto">
+                    Nikmati petualangan sehari penuh di Lombok Selatan, menjelajahi kekayaan budaya Sasak dan keindahan pantai-pantai ikonik di area Mandalika.
+                </p>
+            </div>
 
-                {/* Intro Section */}
-                <div className="text-center mb-16 max-w-4xl mx-auto">
-                    <h2 className="text-3xl font-bold text-gray-900 mb-6">
-                        Full Day Kuta Mandalika Tour
-                    </h2>
-                    <p className="text-lg text-gray-700">
-                        Paket wisata yang membawa Anda mengeksplor keindahan destinasi budaya
-                        dan pantai di selatan Lombok. Nikmati Desa Adat Sade, Pantai Kuta
-                        Mandalika, Tanjung Aan, Bukit Merese, hingga Sirkuit MotoGP dengan
-                        fasilitas lengkap.
+            {/* Trip Details Section */}
+            <div className="bg-white rounded-xl p-8 mb-8 shadow-sm border border-gray-200">
+                <h2 className="text-2xl font-bold mb-6 text-gray-800 border-b pb-2 border-gray-200">
+                    Deskripsi & Destinasi
+                </h2>
+                <div className="space-y-4 mb-6 text-gray-700">
+                    <p>
+                        Paket ini akan membawa Anda mengeksplor keindahan destinasi budaya dan pantai di bagian Selatan Pulau Lombok.
+                    </p>
+                    <p>
+                        **Start:** Kota Mataram atau Bandara Lombok
+                        <br />
+                        **Durasi:** 08.00 - Selesai
                     </p>
                 </div>
 
-                {/* Highlights Grid */}
-                <div className="bg-gray-50 p-8 rounded-2xl mb-16">
-                    <h2 className="text-3xl font-bold mb-8 text-center text-gray-900">
-                        Yang Anda Dapatkan
-                    </h2>
-                    <div className="grid md:grid-cols-3 gap-6">
-                        {[
-                            {
-                                icon: "🏝️",
-                                title: "Pantai Eksotis",
-                                desc: "Kuta, Tanjung Aan & Bukit Merese",
-                            },
-                            {
-                                icon: "👘",
-                                title: "Budaya Sasak",
-                                desc: "Desa Sade & Tenun Sukarara",
-                            },
-                            {
-                                icon: "🏍️",
-                                title: "Sirkuit MotoGP",
-                                desc: "Spot foto ikonik",
-                            },
-                        ].map((item, i) => (
-                            <div
-                                key={i}
-                                className="text-center p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
-                            >
-                                <span className="text-4xl mb-3 block">{item.icon}</span>
-                                <h3 className="font-bold text-xl mb-2 text-gray-900">
-                                    {item.title}
-                                </h3>
-                                <p className="text-gray-600">{item.desc}</p>
-                            </div>
-                        ))}
-                    </div>
-                </div>
+                <h3 className="text-lg font-semibold mb-3 text-blue-700">Destinasi:</h3>
+                <ul className="list-disc list-inside space-y-2 text-gray-700">
+                    <li>Sentra Tenun Sukerare</li>
+                    <li>Desa Adat Sade / Desa Ende</li>
+                    <li>Pantai Kuta Mandalika</li>
+                    <li>Pantai Tanjung Aan</li>
+                    <li>Sirkuit Mandalika</li>
+                    <li>Bukit Merese (Sunset Point)</li>
+                </ul>
+            </div>
 
-                {/* Destinations Gallery */}
-                <div className="my-16">
-                    <h2 className="text-3xl font-bold mb-8 text-center text-gray-900">
-                        Destinasi Favorit
-                    </h2>
-                    <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-                        {[
-                            {
-                                img: "/mandacir.jpg",
-                                alt: "Desa Sade",
-                                caption: "Desa Adat Sade",
-                            },
-                            {
-                                img: "/mandacir.jpg",
-                                alt: "Pantai Tanjung Aan",
-                                caption: "Pantai Tanjung Aan",
-                            },
-                            {
-                                img: "/mandacir.jpg",
-                                alt: "Bukit Merese",
-                                caption: "Bukit Merese",
-                            },
-                            {
-                                img: "/mandacir.jpg",
-                                alt: "Sirkuit Mandalika",
-                                caption: "Sirkuit MotoGP",
-                            },
-                            {
-                                img: "/mandacir.jpg",
-                                alt: "Tenun Sukarara",
-                                caption: "Tenun Sukarara",
-                            },
-                            {
-                                img: "/mandacir.jpg",
-                                alt: "Sunset Mandalika",
-                                caption: "Sunset Point",
-                            },
-                        ].map((item, i) => (
-                            <div
-                                key={i}
-                                className="relative h-48 md:h-64 rounded-xl overflow-hidden shadow-md hover:scale-[1.02] transition-transform group"
-                            >
-                                <Image
-                                    src={item.img}
-                                    alt={item.alt}
-                                    fill
-                                    className="object-cover"
-                                />
-                                <div className="absolute inset-0 bg-black/30 flex items-end p-4 opacity-0 group-hover:opacity-100 transition-opacity">
-                                    <span className="text-white font-medium">{item.caption}</span>
-                                </div>
-                            </div>
-                        ))}
-                    </div>
-                </div>
+            {/* Itinerary Section */}
+            <div className="bg-white rounded-xl p-8 mb-8 shadow-sm border border-gray-200">
+                <h2 className="text-2xl font-bold mb-6 text-gray-800 border-b pb-2 border-gray-200">
+                    Rencana Perjalanan
+                </h2>
+                <ul className="list-disc list-inside space-y-2 text-gray-700">
+                    <li>Meet & Greet Team Kami Di Hotel/Bandara Kota Kami</li>
+                    <li>Menuju Desa Wisata Tenun Sukarara -+ 10 Menit Dari Bandara Lombok -+25 menit Dari Kota Mataram</li>
+                    <li>Berkunjung ke Desa Adat Sade -+20 Menit Dari Desa Wisata Tenun Sukarara</li>
+                    <li>Menuju Pantai Kuta Mandalika Lokasi Pembangunan Sirkuit Moto Gp Indonesia</li>
+                    <li>Menikmati keindahan pantai selatan Tanjung Aan</li>
+                    <li>Soft treking di bukit Merese</li>
+                    <li>Kembali ke Hotel/Bandara/Kota Mataram Program Selesai.</li>
+                </ul>
+            </div>
 
-                {/* Trip Info */}
-                <div className="mb-16 grid md:grid-cols-2 gap-8 items-center">
+            {/* Pricing and Inclusions */}
+            <div className="bg-white rounded-xl p-8 mb-8 shadow-sm border border-gray-200">
+                <div className="grid md:grid-cols-2 gap-8 mb-8">
                     <div>
-                        <h2 className="text-3xl font-bold mb-6 text-gray-900">Info Trip</h2>
+                        <h2 className="text-2xl font-bold mb-4 text-gray-800 border-b pb-2 border-gray-200">
+                            Biaya Trip Sasak Tour Mandalika
+                        </h2>
                         <div className="space-y-4">
-                            <div className="flex items-start">
-                                <span className="text-2xl mr-3">⏱️</span>
-                                <div>
-                                    <h3 className="font-semibold text-lg">Durasi</h3>
-                                    <p>08:00 - Selesai (Full Day)</p>
-                                </div>
+                            <div className="bg-gray-100 p-4 rounded-lg">
+                                <span className="font-bold text-gray-900">2 Orang:</span> Rp 410.000 / pax
                             </div>
-                            <div className="flex items-start">
-                                <span className="text-2xl mr-3">📍</span>
-                                <div>
-                                    <h3 className="font-semibold text-lg">Start Point</h3>
-                                    <p>Kota Mataram / Bandara Lombok</p>
-                                </div>
+                            <div className="bg-gray-100 p-4 rounded-lg">
+                                <span className="font-bold text-gray-900">3-4 Orang:</span> Rp 330.000 / pax
                             </div>
-                            <div className="flex items-start">
-                                <span className="text-2xl mr-3">👥</span>
-                                <div>
-                                    <h3 className="font-semibold text-lg">Jenis Tour</h3>
-                                    <p>Private (Tidak digabung dengan peserta lain)</p>
-                                </div>
+                            <div className="bg-gray-100 p-4 rounded-lg">
+                                <span className="font-bold text-gray-900">5-6 Orang:</span> Rp 280.000 / pax
+                            </div>
+                            <div className="bg-gray-100 p-4 rounded-lg">
+                                <span className="font-bold text-gray-900">7-10 Orang:</span> Rp 245.000 / pax
+                            </div>
+                            <div className="bg-gray-100 p-4 rounded-lg">
+                                <span className="font-bold text-gray-900">11-15 Orang:</span> Rp 230.000 / pax
                             </div>
                         </div>
                     </div>
-                    <div className="bg-gray-50 p-6 rounded-xl">
-                        <Image
-                            src="/tourimage/mandalika-map.jpg"
-                            alt="Peta Mandalika"
-                            width={600}
-                            height={400}
-                            className="rounded-lg"
-                        />
-                    </div>
-                </div>
 
-                {/* Itinerary */}
-                <div className="mb-16">
-                    <h2 className="text-3xl font-bold mb-8 text-center text-gray-900">
-                        Rencana Perjalanan
-                    </h2>
-                    <div className="relative">
-                        <div className="absolute left-4 h-full w-0.5 bg-gray-200 md:left-1/2 md:-ml-1"></div>
-                        {[
-                            {
-                                time: "08:00",
-                                title: "Penjemputan",
-                                desc: "Meet & greet di hotel/bandara",
-                            },
-                            {
-                                time: "08:30",
-                                title: "Tenun Sukarara",
-                                desc: "Kunjungi sentra tenun tradisional (±25 menit dari Mataram)",
-                            },
-                            {
-                                time: "10:00",
-                                title: "Desa Sade",
-                                desc: "Eksplor budaya Sasak di desa adat",
-                            },
-                            {
-                                time: "12:00",
-                                title: "Pantai Kuta",
-                                desc: "Wisata pantai & makan siang",
-                            },
-                            {
-                                time: "14:00",
-                                title: "Tanjung Aan",
-                                desc: "Pantai dengan pasir putih dan air jernih",
-                            },
-                            {
-                                time: "16:00",
-                                title: "Bukit Merese",
-                                desc: "Trekking ringan menikmati sunset",
-                            },
-                            {
-                                time: "18:00",
-                                title: "Kembali",
-                                desc: "Transfer kembali ke hotel/bandara",
-                            },
-                        ].map((item, i) => (
-                            <div
-                                key={i}
-                                className={`relative mb-8 md:flex ${
-                                    i % 2 === 0 ? "md:justify-start" : "md:justify-end"
-                                }`}
-                            >
-                                <div
-                                    className={`bg-white p-6 rounded-xl shadow-md w-full md:w-5/12 relative ${
-                                        i % 2 === 0 ? "md:mr-auto" : "md:ml-auto"
-                                    }`}
-                                >
-                                    <div className="absolute -left-10 top-6 w-8 h-8 rounded-full bg-green-500 border-4 border-white flex items-center justify-center text-white font-bold md:left-auto md:-right-10">
-                                        {i + 1}
-                                    </div>
-                                    <div className="flex items-center mb-2">
-                    <span className="bg-green-100 text-green-800 py-1 px-3 rounded-full text-sm font-medium">
-                      {item.time}
-                    </span>
-                                    </div>
-                                    <h3 className="text-xl font-bold mb-2 text-gray-900">
-                                        {item.title}
-                                    </h3>
-                                    <p className="text-gray-700">{item.desc}</p>
-                                </div>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-
-                {/* Pricing */}
-                <div className="mb-16">
-                    <h2 className="text-3xl font-bold mb-8 text-center text-gray-900">
-                        Biaya Tour
-                    </h2>
-                    <div className="overflow-x-auto">
-                        <table className="w-full text-left border-collapse">
-                            <thead>
-                            <tr className="bg-green-600 text-white">
-                                <th className="p-4 rounded-tl-xl">Jumlah Peserta</th>
-                                <th className="p-4">Harga per Orang</th>
-                                <th className="p-4 rounded-tr-xl">Total</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            {[
-                                { people: 2, price: 410000 },
-                                { people: 3, price: 330000 },
-                                { people: 5, price: 280000 },
-                                { people: 7, price: 245000 },
-                                { people: 11, price: 230000 },
-                            ].map((item, i) => (
-                                <tr
-                                    key={i}
-                                    className={`${
-                                        i % 2 === 0 ? "bg-gray-50" : "bg-white"
-                                    } hover:bg-green-50`}
-                                >
-                                    <td className="p-4 font-medium">{item.people} Orang</td>
-                                    <td className="p-4">Rp {item.price.toLocaleString()}</td>
-                                    <td className="p-4 font-semibold">
-                                        Rp {(item.people * item.price).toLocaleString()}
-                                    </td>
-                                </tr>
-                            ))}
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-
-                {/* Inclusions & Exclusions */}
-                <div className="grid md:grid-cols-2 gap-8 mb-16">
-                    <div className="bg-green-50 p-6 rounded-xl">
-                        <h2 className="text-2xl font-bold mb-6 text-gray-900">
-                            Harga Termasuk
-                        </h2>
-                        <ul className="space-y-3">
-                            {[
-                                "Private AC Transport",
-                                "Driver + BBM + Parkir",
-                                "Tiket masuk semua destinasi",
-                                "1x Makan Siang",
-                                "Air Mineral",
-                                "Dokumentasi oleh driver",
-                                "Local Guide",
-                                "Masker & Hand Sanitizer",
-                            ].map((item, i) => (
-                                <li key={i} className="flex items-start">
-                                    <span className="text-green-600 mr-2">✓</span>
-                                    <span>{item}</span>
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
-
-                    <div className="bg-red-50 p-6 rounded-xl">
-                        <h2 className="text-2xl font-bold mb-6 text-gray-900">
-                            Harga Tidak Termasuk
-                        </h2>
-                        <ul className="space-y-3">
-                            {[
-                                "Hotel & Tiket Pesawat",
-                                "Makan Malam",
-                                "Pengeluaran pribadi",
-                                "Aktivitas tambahan",
-                            ].map((item, i) => (
-                                <li key={i} className="flex items-start">
-                                    <span className="text-red-600 mr-2">✗</span>
-                                    <span>{item}</span>
-                                </li>
-                            ))}
+                    <div>
+                        <h3 className="text-lg font-semibold mb-3 text-gray-800">Harga Sudah Termasuk:</h3>
+                        <ul className="space-y-2 text-gray-700 ml-4 list-disc">
+                            <li>Private AC TRANSPORT</li>
+                            <li>Driver,Bbm dan Parking Area</li>
+                            <li>Tiket masuk Semua Objek Wisata</li>
+                            <li>1 X Makan Siang</li>
+                            <li>Air Mineral</li>
+                            <li>Dokumentasi dibantu Driver</li>
+                            <li>Local Guide,Tiket Wisata</li>
+                            <li>Masker and Hand Sanitizer</li>
                         </ul>
                     </div>
                 </div>
 
-                {/* FAQ */}
-                <div className="mb-16">
-                    <h2 className="text-3xl font-bold mb-8 text-center text-gray-900 w-full">
-                        Pertanyaan Umum
-                    </h2>
-                    <div className="space-y-4">
-                        {[
-                            {
-                                q: "Apakah bisa request destinasi lain?",
-                                a: "Bisa! Tour bersifat privat dan fleksibel. Anda bisa diskusikan perubahan itinerary dengan driver/guide.",
-                            },
-                            {
-                                q: "Bagaimana jika hujan saat tour?",
-                                a: "Kami menyediakan ponco dan akan menyesuaikan itinerary dengan kondisi cuaca.",
-                            },
-                            {
-                                q: "Apakah ada batasan usia untuk tour ini?",
-                                a: "Tidak ada. Tour cocok untuk semua usia, termasuk anak-anak dan lansia.",
-                            },
-                            {
-                                q: "Bagaimana cara pembayarannya?",
-                                a: "Pembayaran bisa dilakukan cash setelah tour selesai atau transfer sebelum tour (untuk booking).",
-                            },
-                        ].map((item, i) => (
-                            <div
-                                key={i}
-                                className="border border-gray-200 rounded-xl overflow-hidden"
-                            >
-                                <button
-                                    className={`w-full p-4 text-left font-medium flex justify-between items-center ${
-                                        activeAccordion === i ? "bg-gray-50" : ""
-                                    }`}
-                                    onClick={() => toggleAccordion(i)}
-                                >
-                                    <span>{item.q}</span>
-                                    <span className="text-xl">
-                    {activeAccordion === i ? "−" : "+"}
-                  </span>
-                                </button>
-                                {activeAccordion === i && (
-                                    <div className="p-4 pt-0 text-gray-700">{item.a}</div>
-                                )}
-                            </div>
-                        ))}
-                    </div>
-                </div>
-
-                {/* CTA Section */}
-                <div className="mt-16 text-center bg-[url('/tourimage/mandalika-cta.jpg')] bg-cover bg-center py-16 rounded-2xl shadow-inner">
-                    <div className="backdrop-blur-sm bg-white/90 p-8 rounded-xl inline-block mx-4">
-                        <h3 className="text-2xl md:text-3xl font-bold mb-4 text-gray-900">
-                            Siap Berpetualang di Mandalika?
-                        </h3>
-                        <p className="mb-6 text-gray-700 max-w-md mx-auto">
-                            Pesan sekarang dan dapatkan pengalaman tak terlupakan di Lombok!
-                        </p>
-                        <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                            <a
-                                href="https://wa.me/6281529408733?text=Halo,%20saya%20ingin%20pesan%20Sasak%20Tour%20Mandalika"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="inline-flex items-center justify-center bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-full text-lg transition-all shadow-lg"
-                            >
-                                <Image
-                                    src="/whatsapp-icon.png"
-                                    alt="WhatsApp"
-                                    width={24}
-                                    height={24}
-                                    className="mr-2"
-                                />
-                                Pesan via WhatsApp
-                            </a>
-                            <a
-                                href="tel:+6281529408733"
-                                className="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full text-lg transition-all shadow-lg"
-                            >
-                                <Image
-                                    src="/phone-icon.png"
-                                    alt="Phone"
-                                    width={24}
-                                    height={24}
-                                    className="mr-2"
-                                />
-                                Telepon Kami
-                            </a>
-                        </div>
-                        <p className="mt-4 text-sm text-gray-600">
-                            Respon cepat dalam 5 menit!
-                        </p>
-                    </div>
+                <div className="border-t pt-8 border-gray-200">
+                    <h3 className="text-lg font-semibold mb-3 text-gray-800">Harga Tidak Termasuk:</h3>
+                    <ul className="space-y-2 text-gray-700 ml-4 list-disc">
+                        <li>Hotel,Tiket Pesawat,Pengeluaran Pribadi</li>
+                        <li>Makan Malam</li>
+                        <li>Lain lain yang tidak tercantum dalam paket.</li>
+                    </ul>
                 </div>
             </div>
-        </section>
+
+            {/* Notes and CTA */}
+            <div className="bg-white rounded-xl p-8 mb-8 shadow-sm border border-gray-200">
+                <h2 className="text-xl font-bold mb-4 text-gray-800 border-b pb-2 border-gray-200">
+                    Ketentuan
+                </h2>
+                <ul className="list-disc list-inside space-y-2 text-gray-700">
+                    <li>Paket diatas merupakan Private tour atau tidak di gabung dengan peserta lain</li>
+                    <li>Harga dihitung per pax / per orang</li>
+                    <li>Itinerary dan waktu bersifat Fleksible dapat disesuaikan dengan kebutuhan</li>
+                    <li>Untuk makan malam, tidak termasuk dalam paket namun guide kami akan merekomendasikan tempat makan yang sesuai dengan keinginan anda</li>
+                    <li>Pembarayan dapat dilakukan setelah program atau trip selesai</li>
+                    <li>Apabila terdapat permintaan khusus, harap menghubungi kami sebelumnya seperti surprice, perubahan destinasi dll.</li>
+                </ul>
+            </div>
+
+            {/* WhatsApp Button */}
+            <div className="text-center">
+                <div className="bg-white rounded-xl p-8 shadow-sm border border-gray-200">
+                    <h3 className="text-xl font-bold mb-4 text-gray-800">Rencanakan Perjalanan Anda Sekarang!</h3>
+                    <p className="text-gray-600 mb-6">Hubungi kami untuk detail harga dan menyesuaikan paket tour Anda.</p>
+                    <Link
+                        href="https://wa.me/6285337452003?text=Halo%20Admin,%20saya%20tertarik%20dengan%20paket%20Trip%20Sasak%20Mandalika"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center bg-green-600 text-white font-bold py-4 px-8 rounded-full hover:bg-green-700 transition-colors text-lg shadow-lg transform hover:scale-105"
+                    >
+                        <svg className="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.864 3.488"/>
+                        </svg>
+                        Pesan via WhatsApp
+                    </Link>
+                    <p className="text-gray-600 mt-4 text-sm">Respon cepat dalam 5 menit</p>
+                </div>
+            </div>
+        </div>
     );
 }

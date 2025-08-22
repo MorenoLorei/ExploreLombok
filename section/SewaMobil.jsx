@@ -102,14 +102,14 @@ const CarRental = () => {
 
                                 <p className="text-gray-600 mb-4 flex-grow">{p.description}</p>
                                 <p className="text-gray-800 font-bold mb-5">
-                                    Mulai dari Rp {p.price}/hari
+                                    {p.price}/12 jam
                                 </p>
 
                                 {/* Button pinned to bottom */}
 
                                 <Link
                                     href={p.link}
-                                    className="w-full bg-black text-center text-white font-bold py-3 px-4 rounded-lg transition-all duration-300 hover:scale-[1.02] mt-auto"
+                                    className="w-full bg-blue-700 text-center text-white font-bold py-3 px-4 rounded-lg transition-all duration-300 hover:scale-[1.02] mt-auto"
                                 >
                                     Pesan Sekarang
                                 </Link>

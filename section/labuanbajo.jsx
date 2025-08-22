@@ -53,7 +53,7 @@ const Paketlabuanbajo = () => {
     }
 
     return (
-        <section className="py-16 bg-white" id="paket">
+        <section className="py-16 bg-white" id="labuanbajo">
             <div className="container mx-auto px-4">
                 {/* Section Header */}
                 <div className="text-center mb-16">
@@ -112,7 +112,7 @@ const Paketlabuanbajo = () => {
                                     href={p.link}
                                     className="w-full bg-black text-center text-white font-bold py-3 px-4 rounded-lg transition-all duration-300 hover:scale-[1.02] mt-auto"
                                 >
-                                    Pesan Sekarang
+                                    Check detail
                                 </Link>
                             </div>
                         </div>

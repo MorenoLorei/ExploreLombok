@@ -2,9 +2,6 @@
 import React from 'react';
 import LightboxImage from "@/section/components/imageopener";
 
-// Mock LightboxImage component
-
-
 export default function LombokTourPackages() {
     return (
         <div className="max-w-5xl mx-auto p-6 bg-gray-50 min-h-screen">
@@ -307,7 +304,7 @@ export default function LombokTourPackages() {
                     <h3 className="text-xl font-bold mb-4 text-gray-800">Hubungi Kami Sekarang!</h3>
                     <p className="text-gray-600 mb-6">Dapatkan konsultasi gratis dan penawaran terbaik untuk liburan impian Anda</p>
                     <a
-                        href="https://wa.me/6281529408733?text=Halo%20Admin%20Explore%20Lombok,%20Minta%20Info%20Paket%20Tour%20Lombok%203%20Hari%202%20Malam"
+                        href="https://wa.me/6285337452003?text=Halo admin%ExploreLombok,%20Minta%20Info%20Paket%20Tour%20Lombok%202%20Hari%201%20Malam"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="bg-green-600 text-white font-bold py-4 px-8 rounded-lg hover:bg-green-700 transition-colors text-lg shadow-lg"

@@ -1,154 +1,135 @@
 "use client";
-import Image from "next/image";
+import Link from "next/link";
+import React from "react";
 
-export default function PinkBeachTour() {
+export default function TripGiliTrawangan() {
     return (
-        <section className="py-16 bg-white">
-            <div className="container mx-auto px-4">
-                {/* Header */}
-                <div className="text-center mb-12">
-                    <h1 className="text-4xl md:text-5xl font-bold text-gray-900">
-                        Tour Pantai Pink
-                    </h1>
-                    <p className="mt-4 text-lg text-gray-700 max-w-3xl mx-auto">
-                        Pantai Pink merupakan salah satu tempat wisata populer yang terletak di ujung timur pulau Lombok.
-                        Keunikannya sebagai salah satu dari tujuh pantai di dunia dengan pasir berwarna pink membuatnya wajib dikunjungi.
+        <div className="max-w-5xl mx-auto p-6 bg-gray-50 min-h-screen font-sans text-gray-800">
+            {/* Header Section */}
+            <div className="bg-white rounded-xl p-8 text-center mb-12 shadow-sm border border-gray-200">
+                <div className="inline-block bg-blue-100 text-blue-800 px-4 py-1 rounded-full text-sm font-semibold mb-4 tracking-wide">
+                    Tour Harian
+                </div>
+                <h1 className="text-4xl md:text-5xl font-extrabold mb-6 text-gray-900 leading-tight">
+                    Trip Gili Trawangan
+                </h1>
+                <p className="text-gray-600 text-lg leading-relaxed max-w-3xl mx-auto">
+                    Gili Trawangan merupakan destinasi wisata populer kelas dunia yang menawarkan sejumlah aktivitas menarik. Anda bisa menjelajahi keindahan bawah laut atau berkeliling pulau dengan Cidomo.
+                </p>
+            </div>
+
+            {/* Trip Details Section */}
+            <div className="bg-white rounded-xl p-8 mb-8 shadow-sm border border-gray-200">
+                <h2 className="text-2xl font-bold mb-6 text-gray-800 border-b pb-2 border-gray-200">
+                    Rencana Perjalanan
+                </h2>
+                <div className="space-y-4 text-gray-700">
+                    <p>
+                        **Start:** Kota Mataram / Bandara Internasional Lombok
+                        <br />
+                        **Durasi:** 1 Hari
                     </p>
-                </div>
-
-                {/* Main Image */}
-                <div className="relative w-full h-96 rounded-2xl overflow-hidden shadow-lg mb-12">
-                    <Image
-                        src="/tourimage/pink-beach.jpg" // Replace with your image
-                        alt="Pantai Pink Lombok"
-                        fill
-                        className="object-cover"
-                    />
-                </div>
-
-                {/* Trip Info */}
-                <div className="mb-12">
-                    <h2 className="text-2xl font-bold mb-4">Info Trip</h2>
-                    <p><strong>Start:</strong> Kota Mataram / Bandara Internasional Lombok</p>
-                    <p><strong>Durasi:</strong> 1 Hari</p>
-                </div>
-
-                {/* Destinations */}
-                <div className="mb-12">
-                    <h2 className="text-2xl font-bold mb-4">Destinasi</h2>
-                    <ul className="list-disc list-inside text-gray-700 space-y-2">
-                        <li>Pantai Pink 1</li>
-                        <li>Pantai Pink 2</li>
-                        <li>Bukit Tangsi</li>
-                        <li>Gili Petelu (Snorkeling)</li>
-                        <li>Gili Gambir (Snorkeling)</li>
-                        <li>Pulau Pasir</li>
+                    <ul className="list-disc list-inside space-y-2">
+                        <li>Meet & Greet Team Kami Di Hotel/Bandara Kota Kami</li>
+                        <li>Menuju Pelabuhan -+ 25 Menit ke pelabuhan Teluk Nara/Teluk Kodek/Bangsal Menggunakan Perahu</li>
+                        <li>Menikmati Keindahan Alam Bawah Laut Gili Air (Snorkeling/Diving)</li>
+                        <li>Menikmati Keindahan Alam Bawah Laut Gili Meno (Snorkeling/Diving)</li>
+                        <li>Makan Siang Di Restaurant Gili Trawangan</li>
+                        <li>Free Program Acara Bebas Di Gili Trawangan Mengikuti Activitas Lokal Di Gili Diantaranya (Naik Kuda Di Pantai, Bersepeda Naik Cidomo,Kelililing Gili Trawangan)</li>
+                        <li>Kembali Ke Pelabuhan GT Gili Trawangan untuk Kembali ke Pelabuhan Teluk Nara/Teluk Kodek/Bangsal</li>
+                        <li>Menikmati Keindahan Sunset di Pantai Senggigigi, Malimbu,Vila Hantu Peserta Bebas Memilih Object Pantai di arahkan Tim Kami di Lapangan</li>
+                        <li>Kembali Ke Hotel/Bandara/Kota Mataram Program Selesai.</li>
                     </ul>
-                </div>
-
-                {/* Itinerary */}
-                <div className="mb-12">
-                    <h2 className="text-2xl font-bold mb-4">Rencana Perjalanan</h2>
-                    <ul className="list-disc list-inside text-gray-700 space-y-2">
-                        <li>Crew kami akan menjemput anda di Airport atau lokasi yang sudah disepakati</li>
-                        <li>Menuju dermaga Tanjung Luar untuk penyebrangan ke Pink Beach menggunakan private boat</li>
-                        <li>Snorkeling Trip di Gili Petelu dan Gili Gambir</li>
-                        <li>Free time dan makan siang di Pink Beach 1</li>
-                        <li>Berfoto di Bukit Tangsi</li>
-                        <li>Lanjutkan ke Pink Beach 2 dan Pink Beach 3</li>
-                        <li>Kunjungi Pulau Pasir (spot foto indah)</li>
-                        <li>Menuju Mataram dan mengunjungi Pusat Oleh-oleh Khas Lombok</li>
-                        <li>Makan malam di daerah Mataram dan transfer ke hotel - Program selesai</li>
-                    </ul>
-                </div>
-
-                {/* Pricing */}
-                <div className="mb-12">
-                    <h2 className="text-2xl font-bold mb-4">Biaya Trip</h2>
-                    <table className="w-full text-left border-collapse border border-gray-200 mb-6">
-                        <thead>
-                        <tr className="bg-gray-100">
-                            <th className="border border-gray-200 px-4 py-2">Banyak Peserta</th>
-                            <th className="border border-gray-200 px-4 py-2">Harga / pax</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td className="border px-4 py-2">2 Orang</td>
-                            <td className="border px-4 py-2">Rp 675.000</td>
-                        </tr>
-                        <tr>
-                            <td className="border px-4 py-2">3-4 Orang</td>
-                            <td className="border px-4 py-2">Rp 460.000</td>
-                        </tr>
-                        <tr>
-                            <td className="border px-4 py-2">5-6 Orang</td>
-                            <td className="border px-4 py-2">Rp 385.000</td>
-                        </tr>
-                        <tr>
-                            <td className="border px-4 py-2">7-10 Orang</td>
-                            <td className="border px-4 py-2">Rp 365.000</td>
-                        </tr>
-                        <tr>
-                            <td className="border px-4 py-2">11-15 Orang</td>
-                            <td className="border px-4 py-2">Rp 290.000</td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </div>
-
-                {/* Inclusions & Exclusions */}
-                <div className="grid md:grid-cols-2 gap-12 mb-12">
-                    <div>
-                        <h2 className="text-2xl font-bold mb-4">Harga Termasuk</h2>
-                        <ul className="list-disc list-inside text-gray-700 space-y-2">
-                            <li>Private transport AC</li>
-                            <li>Driver, BBM dan Parking Area</li>
-                            <li>Private boat Snorkeling + Alat</li>
-                            <li>1x Makan Siang</li>
-                            <li>Snack Box Tea and Coffee Time Break</li>
-                            <li>Air Mineral</li>
-                            <li>Dokumentasi dibantu driver</li>
-                            <li>Local Guide</li>
-                            <li>Prokes (masker / sanitizer)</li>
-                        </ul>
-                    </div>
-
-                    <div>
-                        <h2 className="text-2xl font-bold mb-4">Harga Tidak Termasuk</h2>
-                        <ul className="list-disc list-inside text-gray-700 space-y-2">
-                            <li>Hotel, Tiket Pesawat, Pengeluaran Pribadi</li>
-                            <li>Makan Malam</li>
-                            <li>Lain-lain yang tidak tercantum dalam paket</li>
-                        </ul>
-                    </div>
-                </div>
-
-                {/* Notes */}
-                <div>
-                    <h2 className="text-2xl font-bold mb-4">Ketentuan</h2>
-                    <ul className="list-disc list-inside text-gray-700 space-y-2">
-                        <li>Paket merupakan private tour, tidak digabung dengan peserta lain</li>
-                        <li>Harga dihitung per pax / per orang</li>
-                        <li>Itinerary dan waktu fleksibel sesuai kebutuhan</li>
-                        <li>Makan malam tidak termasuk (guide akan rekomendasikan tempat makan)</li>
-                        <li>Pembayaran dapat dilakukan setelah program selesai</li>
-                        <li>Permintaan khusus (surprise, perubahan destinasi) harap hubungi kami sebelumnya</li>
-                    </ul>
-                </div>
-
-                {/* WhatsApp Button */}
-                <div className="mt-12 text-center">
-                    <a
-                        href="https://wa.me/6281529408733?text=Halo, saya ingin order trip Pantai Pink"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-block bg-green-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-green-700 transition-all"
-                    >
-                        Pesan via WhatsApp
-                    </a>
                 </div>
             </div>
-        </section>
+
+            {/* Pricing and Inclusions */}
+            <div className="bg-white rounded-xl p-8 mb-8 shadow-sm border border-gray-200">
+                <div className="grid md:grid-cols-2 gap-8 mb-8">
+                    <div>
+                        <h2 className="text-2xl font-bold mb-4 text-gray-800 border-b pb-2 border-gray-200">
+                            Biaya Trip Gili Trawangan
+                        </h2>
+                        <div className="space-y-4">
+                            <div className="bg-gray-100 p-4 rounded-lg">
+                                <span className="font-bold text-gray-900">2 Orang:</span> Rp 650.000 / pax
+                            </div>
+                            <div className="bg-gray-100 p-4 rounded-lg">
+                                <span className="font-bold text-gray-900">3-4 Orang:</span> Rp 540.000 / pax
+                            </div>
+                            <div className="bg-gray-100 p-4 rounded-lg">
+                                <span className="font-bold text-gray-900">5-6 Orang:</span> Rp 500.000 / pax
+                            </div>
+                            <div className="bg-gray-100 p-4 rounded-lg">
+                                <span className="font-bold text-gray-900">7-10 Orang:</span> Rp 480.000 / pax
+                            </div>
+                            <div className="bg-gray-100 p-4 rounded-lg">
+                                <span className="font-bold text-gray-900">11-15 Orang:</span> Rp 385.000 / pax
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 className="text-lg font-semibold mb-3 text-gray-800">Harga Sudah Termasuk:</h3>
+                        <ul className="space-y-2 text-gray-700 ml-4 list-disc">
+                            <li>Private transport AC</li>
+                            <li>Driver, BBM dan Parking Area</li>
+                            <li>Publik Boat utk peserta 2-3 Orang</li>
+                            <li>private trip 3 gili jika peserta 4 orang</li>
+                            <li>1 X Makan Siang</li>
+                            <li>Air Mineral</li>
+                            <li>Dokumentasi dibantu Driver</li>
+                            <li>Local Guide</li>
+                            <li>Prokes ( Masker / sanitizer )</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div className="border-t pt-8 border-gray-200">
+                    <h3 className="text-lg font-semibold mb-3 text-gray-800">Harga Tidak Termasuk:</h3>
+                    <ul className="space-y-2 text-gray-700 ml-4 list-disc">
+                        <li>Hotel,Tiket Pesawat,Pengeluaran Pribadi</li>
+                        <li>Private Boat + Snorkeling</li>
+                        <li>Makan Malam</li>
+                        <li>Lain lain yang tidak tercantum dalam paket.</li>
+                    </ul>
+                </div>
+            </div>
+
+            {/* Notes and CTA */}
+            <div className="bg-white rounded-xl p-8 mb-8 shadow-sm border border-gray-200">
+                <h2 className="text-xl font-bold mb-4 text-gray-800 border-b pb-2 border-gray-200">
+                    Ketentuan
+                </h2>
+                <ul className="list-disc list-inside space-y-2 text-gray-700">
+                    <li>Paket diatas merupakan Private tour atau tidak di gabung dengan peserta lain</li>
+                    <li>Harga dihitung per pax / per orang</li>
+                    <li>Itinerary dan waktu bersifat Fleksible dapat disesuaikan dengan kebutuhan</li>
+                    <li>Untuk makan malam, tidak termasuk dalam paket namun guide kami akan merekomendasikan tempat makan yang sesuai dengan keinhginan anda</li>
+                    <li>Pembarayan dapat dilakukan setelah program atau trip selesai</li>
+                    <li>Apabila terdapat permintaan khusus, harap menghubungi kami sebelumnya seperti surprice, perubahan destinasi dll.</li>
+                </ul>
+            </div>
+
+            {/* WhatsApp Button */}
+            <div className="text-center">
+                <div className="bg-white rounded-xl p-8 shadow-sm border border-gray-200">
+                    <h3 className="text-xl font-bold mb-4 text-gray-800">Siap Berpetualang di Gili Trawangan?</h3>
+                    <p className="text-gray-600 mb-6">Hubungi kami untuk menyesuaikan perjalanan Anda yang menyenangkan!</p>
+                    <Link
+                        href="https://wa.me/6285337452003?text=Halo Admin Explore Lombok, Minta Info Tour Harian Gili Trawangan"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center bg-green-600 text-white font-bold py-4 px-8 rounded-full hover:bg-green-700 transition-colors text-lg shadow-lg transform hover:scale-105"
+                    >
+                        <svg className="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.864 3.488"/>
+                        </svg>
+                        Pesan via WhatsApp
+                    </Link>
+                    <p className="text-gray-600 mt-4 text-sm">Respon cepat dalam 5 menit</p>
+                </div>
+            </div>
+        </div>
     );
 }

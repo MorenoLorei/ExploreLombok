@@ -2,7 +2,7 @@
 import Link from "next/link";
 import React from "react";
 
-export default function TripGiliNanggu() {
+export default function TripWisataSembalun() {
     return (
         <div className="max-w-5xl mx-auto p-6 bg-gray-50 min-h-screen font-sans text-gray-800">
             {/* Header Section */}
@@ -11,10 +11,10 @@ export default function TripGiliNanggu() {
                     Tour Harian
                 </div>
                 <h1 className="text-4xl md:text-5xl font-extrabold mb-6 text-gray-900 leading-tight">
-                    Trip Gili Nanggu
+                    Wisata Pegunungan Sembalun
                 </h1>
                 <p className="text-gray-600 text-lg leading-relaxed max-w-3xl mx-auto">
-                    Eksplor keindahan bawah laut Gili Nanggu, Gili Sudak, dan Gili Kedis. Nikmati snorkeling, berenang bersama ribuan ikan, dan bersantai di pantai berpasir putih.
+                    Nikmati petualangan di Sembalun, desa yang dikelilingi bukit-bukit cantik di bawah kaki Gunung Rinjani, dengan panorama alam yang memukau.
                 </p>
             </div>
 
@@ -25,10 +25,10 @@ export default function TripGiliNanggu() {
                 </h2>
                 <div className="space-y-4 mb-6 text-gray-700">
                     <p>
-                        Paket ini menyediakan fasilitas snorkeling untuk Anda yang ingin mengeksplor keindahan alam bawah laut di ujung barat pulau Lombok. Kami telah merangkum semua keperluan trip, mulai dari transportasi hingga alat snorkeling.
+                        Sembalun adalah gerbang utama pendakian menuju Gunung Rinjani. Kawasan ini menawarkan berbagai aktivitas seru seperti Glamping, Soft Trekking, Hiking, hingga Paragliding.
                     </p>
                     <p>
-                        **Start:** Kota Mataram / Bandara Lombok
+                        **Start:** Kota Mataram / Bandara Internasional Lombok
                         <br />
                         **Durasi:** 1 Hari
                     </p>
@@ -37,13 +37,15 @@ export default function TripGiliNanggu() {
                 <h3 className="text-lg font-semibold mb-3 text-blue-700">Rencana Perjalanan:</h3>
                 <ul className="list-disc list-inside space-y-2 text-gray-700">
                     <li>Crew kami akan menjemput anda di Airport atau lokasi yang sudah disepakati</li>
-                    <li>Tiba di dermaga tawun sekotong lombok barat untuk penyebrangan ke gili nanggu sekitar 10 -20 menit dengan menggunakan Private Boat</li>
-                    <li>Tiba di Gili Nanggu, kita melakukan persiapan untuk bermain Snorkling dan menikmati keindahan alam bawah laut, berenang bersama ribuan spesies ikan hias dan pemandangan coral yang sangat menakjubkan</li>
-                    <li>Free and easy dan makan siang di Gili Sudak sambil bersantai menikmati keindahan alam pulau kecil ini</li>
-                    <li>Menuju ke Gili Kedis dan anda bisa melanjutkan bermain Snorkling di Gili kedis dengan spot berbeda atau anda bisa bersantai sejenak sambil memotret atau selfie di pulau yang exotic ini</li>
-                    <li>Setelah puas berlama lama di gili kedis kita akan Kembali ke Lombok dan menuju mataram</li>
-                    <li>Mengunjungi Pusat Olleh oleh Khas Lombok ( Optional )</li>
-                    <li>Makan Malam dan kami akan mengantar anda kembali ke hotel atau lokasi yang telah disepakati</li>
+                    <li>Menuju ke Pusuk Sembalun dengan melewati hutan pinus yang sejuk dan singgah di beberapa spot foto yang menarik</li>
+                    <li>Sampai di pusuk sembalun kita bisa berhenti sejenak untuk melihat Desa Sembalun dari ketinggian kurang lebih 1200 mdpl dan mengabadikan moment menggunakan video atau foto selfie dan kemudian turun ke daerah sembalun</li>
+                    <li>Sampai di desa sembalun free and easy menikmati pemandangan alam di bukit selong yang terkenal</li>
+                    <li>Makan siang dan cofee break di kedai sawah yang populer</li>
+                    <li>Menuju ladang atau kebun apel yang bisa dipetik sendiri</li>
+                    <li>Selanjutnya anda bisa memilih menginap jika memilih paket tour 2hari 1malam dan hari kedua bisa dilanjutkan menuju waterfall sendang gile dan tiu kelep ( Optional )</li>
+                    <li>Tapi jika tidak, kita langsung kembali ke Mataram dan singgah di Islamic Center dan pusat oleh oleh khas lombok</li>
+                    <li>Kemudian kami akan mengantar anda makan malam dan kembali ke hotel</li>
+                    <li>Program tour wisata sembalun selesai</li>
                 </ul>
             </div>
 
@@ -52,23 +54,23 @@ export default function TripGiliNanggu() {
                 <div className="grid md:grid-cols-2 gap-8 mb-8">
                     <div>
                         <h2 className="text-2xl font-bold mb-4 text-gray-800 border-b pb-2 border-gray-200">
-                            Biaya Trip Gili Nanggu
+                            Biaya Trip Wisata Sembalun
                         </h2>
                         <div className="space-y-4">
                             <div className="bg-gray-100 p-4 rounded-lg">
-                                <span className="font-bold text-gray-900">2 Orang:</span> Rp 570.000 / pax
+                                <span className="font-bold text-gray-900">2 Orang:</span> Rp 475.000 / pax
                             </div>
                             <div className="bg-gray-100 p-4 rounded-lg">
-                                <span className="font-bold text-gray-900">3-4 Orang:</span> Rp 435.000 / pax
+                                <span className="font-bold text-gray-900">3-4 Orang:</span> Rp 410.000 / pax
                             </div>
                             <div className="bg-gray-100 p-4 rounded-lg">
-                                <span className="font-bold text-gray-900">5-6 Orang:</span> Rp 355.000 / pax
+                                <span className="font-bold text-gray-900">5-6 Orang:</span> Rp 375.000 / pax
                             </div>
                             <div className="bg-gray-100 p-4 rounded-lg">
-                                <span className="font-bold text-gray-900">7-10 Orang:</span> Rp 318.000 / pax
+                                <span className="font-bold text-gray-900">7-10 Orang:</span> Rp 258.000 / pax
                             </div>
                             <div className="bg-gray-100 p-4 rounded-lg">
-                                <span className="font-bold text-gray-900">11-15 Orang:</span> Rp 258.000 / pax
+                                <span className="font-bold text-gray-900">11-15 Orang:</span> Rp 225.000 / pax
                             </div>
                         </div>
                     </div>
@@ -78,20 +80,18 @@ export default function TripGiliNanggu() {
                         <ul className="space-y-2 text-gray-700 ml-4 list-disc">
                             <li>Private AC TRANSPORT</li>
                             <li>Driver,Bbm dan Parking Area</li>
-                            <li>Privateboat</li>
-                            <li>Snorkling + Alat Snorkling</li>
                             <li>1 X Makan Siang</li>
-                            <li>Camera Underwater</li>
+                            <li>Snack Box untuk peserta minimal 10 pax</li>
+                            <li>Air Mineral</li>
                             <li>Dokumentasi dibantu Driver</li>
-                            <li>Local Guide</li>
-                            <li>Tiket masuk Wisata</li>
+                            <li>Local Guide, dan Tiket masuk Wisata</li>
                             <li>Masker and Hand Sanitizer</li>
                         </ul>
                     </div>
                 </div>
 
                 <div className="border-t pt-8 border-gray-200">
-                    <h3 className="text-lg font-semibold mb-3 text-gray-800">Harga Tidak Termasuk:</h3>
+                    <h3 className="text-lg font-semibold mb-3 text-gray-800">Harga Belum Termasuk:</h3>
                     <ul className="space-y-2 text-gray-700 ml-4 list-disc">
                         <li>Hotel,Tiket Pesawat,Pengeluaran Pribadi</li>
                         <li>Makan Malam</li>
@@ -107,7 +107,6 @@ export default function TripGiliNanggu() {
                 </h2>
                 <ul className="list-disc list-inside space-y-2 text-gray-700">
                     <li>Paket diatas merupakan Private tour atau tidak di gabung dengan peserta lain</li>
-                    <li>Harga dapat berubah sewaktu waktu sebelum adanya pembayaran DP</li>
                     <li>Harga dihitung per pax / per orang</li>
                     <li>Itinerary dan waktu bersifat Fleksible dapat disesuaikan dengan kebutuhan</li>
                     <li>Untuk makan malam, tidak termasuk dalam paket namun guide kami akan merekomendasikan tempat makan yang sesuai dengan keinhginan anda</li>
@@ -119,10 +118,10 @@ export default function TripGiliNanggu() {
             {/* WhatsApp Button */}
             <div className="text-center">
                 <div className="bg-white rounded-xl p-8 shadow-sm border border-gray-200">
-                    <h3 className="text-xl font-bold mb-4 text-gray-800">Siap Menjelajahi Gili Nanggu?</h3>
+                    <h3 className="text-xl font-bold mb-4 text-gray-800">Siap untuk Petualangan di Sembalun?</h3>
                     <p className="text-gray-600 mb-6">Hubungi kami untuk detail harga dan menyusun paket perjalanan Anda yang berkesan!</p>
                     <Link
-                        href="https://wa.me/6285337452003?text=Halo%20Admin%explore%lombok,%20saya%20tertarik%20dengan%20paket%20Trip%20Gili%20Nanggu"
+                        href="https://wa.me/6285337452003?text=halo%20admin%20explorelombok,%20saya%20tertarik%20dengan%20paket%20Trip%20Wisata%20Sembalun"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center bg-green-600 text-white font-bold py-4 px-8 rounded-full hover:bg-green-700 transition-colors text-lg shadow-lg transform hover:scale-105"

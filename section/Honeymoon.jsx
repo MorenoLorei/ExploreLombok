@@ -52,7 +52,7 @@ const HoneymoonPackages = () => {
     }
 
     return (
-        <section className="py-16 bg-pink-50" id="honeymoon-packages">
+        <section className="py-16 bg-pink-50" id="honeymoon">
             <div className="container mx-auto px-4">
                 {/* Section Header */}
                 <div className="text-center mb-16">
@@ -110,7 +110,7 @@ const HoneymoonPackages = () => {
                                     href={p.link}
                                     className="w-full bg-pink-600 text-center text-white font-bold py-3 px-4 rounded-lg transition-all duration-300 hover:scale-[1.02] mt-auto"
                                 >
-                                    Pesan Sekarang
+                                    Check detail
                                 </Link>
                             </div>
                         </div>

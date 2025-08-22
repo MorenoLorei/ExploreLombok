@@ -52,7 +52,7 @@ const Tour = () => {
   }
 
   return (
-      <section className="py-16 bg-white" id="produk">
+      <section className="py-16 bg-white" id="tour">
         <div className="container mx-auto px-4">
           {/* Section Header */}
           <div className="text-center mb-16">
@@ -111,7 +111,7 @@ const Tour = () => {
                         href={p.link}
                         className="w-full bg-black text-center text-white font-bold py-3 px-4 rounded-lg transition-all duration-300 hover:scale-[1.02] mt-auto"
                     >
-                      Pesan Sekarang
+                      Check detail
                     </Link>
                   </div>
                 </div>

@@ -117,7 +117,7 @@ export default function PaketTourKomodo3H2M() {
                     <h3 className="text-xl font-bold mb-4 text-gray-800">Siap Berpetualang di Komodo?</h3>
                     <p className="text-gray-600 mb-6">Dapatkan penawaran spesial dan konsultasi gratis untuk perjalanan impian Anda</p>
                     <Link
-                        href="https://wa.me/6281529408733?text=Halo%20Admin%20Explore%20Lombok,%20Minta%20Info%20Paket%20Tour%20Komodo%203%20Hari%202%20Malam"
+                        href="https://wa.me/6285337452003?text=Halo%20Admin%20Explore%20Lombok,%20Minta%20Info%20Paket%20Tour%20Komodo%203%20Hari%202%20Malam"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center bg-green-600 text-white font-bold py-4 px-8 rounded-full hover:bg-green-700 transition-colors text-lg shadow-lg transform hover:scale-105"

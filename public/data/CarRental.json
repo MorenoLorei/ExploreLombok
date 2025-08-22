@@ -3,80 +3,80 @@
     "id": 1,
     "name": "NEW AVANZA",
     "description": "Mobil keluarga yang nyaman dan ideal untuk perjalanan bersama rombongan kecil.",
-    "price": "350.000",
+    "price": "Driver + BBM\nRp 600.000",
     "imageUrl": "/car/NA.png",
-    "link": "https://wa.me/6281529408733?text=Halo%20Admin,%20saya%20tertarik%20untuk%20sewa%20mobil%20Toyota%20Avanza"
+    "link": "https://wa.me/6285337452003?text=Halo%20Admin%20Explore%20Lombok,%20Minta%20Info%20Sewa%20Mobil%20NEW%20AVANZA"
   },
   {
     "id": 2,
     "name": "INNOVA REBORN",
-    "description": "Pilihan ekonomis dengan ruang yang cukup luas untuk perjalanan harian.",
-    "price": "300.000",
+    "description": "Kendaraan MPV premium dengan kabin yang lapang dan kenyamanan maksimal untuk perjalanan jauh.",
+    "price": "Driver + BBM\nRp 750.000",
     "imageUrl": "/car/IR.png",
-    "link": "https://wa.me/6281529408733?text=Halo%20Admin,%20saya%20tertarik%20untuk%20sewa%20mobil%20Daihatsu%20Xenia"
+    "link": "https://wa.me/6285337452003?text=Halo%20Admin%20Explore%20Lombok,%20Minta%20Info%20Sewa%20Mobil%20INNOVA%20REBORN"
   },
   {
     "id": 3,
     "name": "ELF",
-    "description": "Mobil city car yang lincah, sempurna untuk berkeliling kota dengan mudah.",
-    "price": "250.000",
+    "description": "Minibus yang efisien, ideal untuk membawa rombongan sedang dengan kapasitas hingga 15 penumpang.",
+    "price": "Driver + BBM\nRp 1.100.000",
     "imageUrl": "/car/E.png",
-    "link": "https://wa.me/6281529408733?text=Halo%20Admin,%20saya%20tertarik%20untuk%20sewa%20mobil%20Honda%20Brio"
+    "link": "https://wa.me/6285337452003?text=Halo%20Admin%20Explore%20Lombok,%20Minta%20Info%20Sewa%20Mobil%20ELF"
   },
   {
     "id": 4,
     "name": "HIACE",
-    "description": "Mobil city car yang lincah, sempurna untuk berkeliling kota dengan mudah.",
-    "price": "250.000",
+    "description": "Van premium dengan interior mewah dan kapasitas besar, cocok untuk perjalanan grup yang membutuhkan kenyamanan ekstra.",
+    "price": "Driver + BBM\nRp 1.100.000",
     "imageUrl": "/car/HIA.png",
-    "link": "https://wa.me/6281529408733?text=Halo%20Admin,%20saya%20tertarik%20untuk%20sewa%20mobil%20Honda%20Brio"
+    "link": "https://wa.me/6285337452003?text=Halo%20Admin%20Explore%20Lombok,%20Minta%20Info%20Sewa%20Mobil%20HIACE"
   },
   {
     "id": 5,
     "name": "FORTUNER",
-    "description": "Mobil city car yang lincah, sempurna untuk berkeliling kota dengan mudah.",
-    "price": "250.000",
+    "description": "SUV tangguh dan gagah, memberikan performa handal di segala medan dengan kesan mewah dan kuat.",
+    "price": "Driver + BBM\nRp 1.500.000",
     "imageUrl": "/car/FORT.png",
-    "link": "https://wa.me/6281529408733?text=Halo%20Admin,%20saya%20tertarik%20untuk%20sewa%20mobil%20Honda%20Brio"
+    "link": "https://wa.me/6285337452003?text=Halo%20Admin%20Explore%20Lombok,%20Minta%20Info%20Sewa%20Mobil%20FORTUNER"
   },
   {
     "id": 6,
     "name": "PAJERO",
-    "description": "Mobil city car yang lincah, sempurna untuk berkeliling kota dengan mudah.",
-    "price": "250.000",
+    "description": "SUV sporti yang modern, menawarkan kenyamanan dan fitur canggih untuk petualangan perkotaan maupun off-road.",
+    "price": "Driver + BBM\nRp 1.500.000",
     "imageUrl": "/car/PAJERO.png",
-    "link": "https://wa.me/6281529408733?text=Halo%20Admin,%20saya%20tertarik%20untuk%20sewa%20mobil%20Honda%20Brio"
+    "link": "https://wa.me/6285337452003?text=Halo%20Admin%20Explore%20Lombok,%20Minta%20Info%20Sewa%20Mobil%20PAJERO"
   },
   {
     "id": 7,
     "name": "ZENIX",
-    "description": "Mobil city car yang lincah, sempurna untuk berkeliling kota dengan mudah.",
-    "price": "250.000",
+    "description": "Inovasi terbaru dengan teknologi hybrid, efisien bahan bakar, dan interior futuristik untuk pengalaman berkendara yang berbeda.",
+    "price": "Driver + BBM\nRp 1.500.000",
     "imageUrl": "/car/ZEN.png",
-    "link": "https://wa.me/6281529408733?text=Halo%20Admin,%20saya%20tertarik%20untuk%20sewa%20mobil%20Honda%20Brio"
+    "link": "https://wa.me/6285337452003?text=Halo%20Admin%20Explore%20Lombok,%20Minta%20Info%20Sewa%20Mobil%20ZENIX"
   },
   {
     "id": 8,
     "name": "ALPHARD",
-    "description": "Mobil city car yang lincah, sempurna untuk berkeliling kota dengan mudah.",
-    "price": "250.000",
+    "description": "Mobil mewah dengan desain elegan dan interior super nyaman, cocok untuk perjalanan VIP dan bisnis.",
+    "price": "Driver + BBM\nRp 3.500.000",
     "imageUrl": "/car/ALPH.png",
-    "link": "https://wa.me/6281529408733?text=Halo%20Admin,%20saya%20tertarik%20untuk%20sewa%20mobil%20Honda%20Brio"
+    "link": "https://wa.me/6285337452003?text=Halo%20Admin%20Explore%20Lombok,%20Minta%20Info%20Sewa%20Mobil%20ALPHARD"
   },
   {
     "id": 9,
     "name": "BIG BUS",
-    "description": "Mobil city car yang lincah, sempurna untuk berkeliling kota dengan mudah.",
-    "price": "250.000",
+    "description": "Bus berkapasitas besar, ideal untuk rombongan wisata, acara perusahaan, atau perjalanan antar kota dengan jumlah peserta banyak.",
+    "price": "Driver + BBM\nRp 2.500.000",
     "imageUrl": "/car/BGBUS.png",
-    "link": "https://wa.me/6281529408733?text=Halo%20Admin,%20saya%20tertarik%20untuk%20sewa%20mobil%20Honda%20Brio"
+    "link": "https://wa.me/6285337452003?text=Halo%20Admin%20Explore%20Lombok,%20Minta%20Info%20Sewa%20Mobil%20BIG%20BUS"
   },
   {
     "id": 10,
     "name": "MEDIUM BUS",
-    "description": "Mobil city car yang lincah, sempurna untuk berkeliling kota dengan mudah.",
-    "price": "250.000",
+    "description": "Bus ukuran sedang, pilihan tepat untuk rombongan wisata atau tour dengan jumlah peserta yang tidak terlalu banyak.",
+    "price": "Driver + BBM\nRp 1.500.000",
     "imageUrl": "/car/MDBUS.png",
-    "link": "https://wa.me/6281529408733?text=Halo%20Admin,%20saya%20tertarik%20untuk%20sewa%20mobil%20Honda%20Brio"
+    "link": "https://wa.me/6285337452003?text=Halo%20Admin%20Explore%20Lombok,%20Minta%20Info%20Sewa%20Mobil%20MEDIUM%20BUS"
   }
 ]
