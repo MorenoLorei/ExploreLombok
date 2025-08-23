@@ -126,7 +126,7 @@ export default function Navbar() {
                         <Link href="#car-rental" className={`hover:text-yellow-600 transition-colors ${scrolled ? 'text-gray-800' : 'text-white'}`}>
                             Sewa Mobil
                         </Link>
-                        <Link href="/kebijakan-privasi" className={`hover:text-yellow-600 transition-colors ${scrolled ? 'text-gray-800' : 'text-white'}`}>
+                        <Link href="/kebijakan" className={`hover:text-yellow-600 transition-colors ${scrolled ? 'text-gray-800' : 'text-white'}`}>
                             Kebijakan Privasi
                         </Link>
                     </div>
@@ -196,7 +196,7 @@ export default function Navbar() {
                     </div>
 
                     <Link href="#sewa-mobil" className={`block px-4 py-3 hover:bg-white/20 transition-colors ${scrolled ? 'text-gray-800' : 'text-white'}`} onClick={() => setIsOpen(false)}>Sewa Mobil</Link>
-                    <Link href="/kebijakan-privasi" className={`block px-4 py-3 hover:bg-white/20 transition-colors ${scrolled ? 'text-gray-800' : 'text-white'}`} onClick={() => setIsOpen(false)}>Kebijakan Privasi</Link>
+                    <Link href="/kebijakan" className={`block px-4 py-3 hover:bg-white/20 transition-colors ${scrolled ? 'text-gray-800' : 'text-white'}`} onClick={() => setIsOpen(false)}>Kebijakan Privasi</Link>
                 </div>
             )}
         </nav>
