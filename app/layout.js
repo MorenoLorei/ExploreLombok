@@ -16,7 +16,7 @@ export const metadata = {
         url: "https://explorelombok.netlify.app/",
         siteName: "Explore Lombok",
         images: [{
-            url: "/bg-opengraph.png",
+            url: "https://explorelombok.netlify.app/bg-opengraph.png",
             width: 1200,
             height: 630,
             alt: "Pemandangan indah Lombok, Indonesia",
@@ -30,7 +30,7 @@ export const metadata = {
         title: "Explore Lombok | Paket Tour lombok & Sewa Mobil",
         description: "Jelajahi surga tersembunyi Indonesia. Kami menyediakan paket wisata dan sewa mobil terlengkap di Lombok.",
         images: {
-            url: "/bg-opengraph.png",
+            url: "https://explorelombok.netlify.app/bg-opengraph.png",
             alt: "Explore lombok image",
         }
     },

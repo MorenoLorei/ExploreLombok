@@ -421,7 +421,7 @@ export default function PaketTourLombok4H3M() {
                     <h3 className="text-xl font-bold mb-4 text-gray-800">Hubungi Kami Sekarang!</h3>
                     <p className="text-gray-600 mb-6">Dapatkan konsultasi gratis dan penawaran terbaik untuk liburan impian Anda</p>
                     <a
-                        href="https://wa.me/6285337452003?text=Halo%20Admin%20Explore%20Lombok,%20Minta%20Info%20Paket%20Tour%20Lombok%204%20Hari%203%20Malam"
+                        href="https://wa.me/6285337452003?text=Halo%20Admin%20ExploreLombok,%20Minta%20Info%20Paket%20Tour%20Lombok%204%20Hari%203%20Malam"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center bg-green-600 text-white font-bold py-4 px-8 rounded-full hover:bg-green-700 transition-colors text-lg shadow-lg transform hover:scale-105"

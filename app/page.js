@@ -7,6 +7,7 @@ import Paket from "@/section/section/Paket";
 import HoneymoonPackages from "@/section/section/Honeymoon";
 import Paketlabuanbajo from "@/section/section/labuanbajo";
 import SewaMobil from "@/section/section/SewaMobil";
+import Legalitas from "@/section/section/legality";
 
 export default function Main() {
     return (
@@ -19,6 +20,7 @@ export default function Main() {
                 <Paketlabuanbajo />
                 <HoneymoonPackages />
                 <SewaMobil />
+                <Legalitas />
             </main>
             <footer>
                 <Footer />

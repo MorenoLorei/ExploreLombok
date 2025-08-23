@@ -121,7 +121,7 @@ export default function TripWisataSembalun() {
                     <h3 className="text-xl font-bold mb-4 text-gray-800">Siap untuk Petualangan di Sembalun?</h3>
                     <p className="text-gray-600 mb-6">Hubungi kami untuk detail harga dan menyusun paket perjalanan Anda yang berkesan!</p>
                     <Link
-                        href="https://wa.me/6285337452003?text=halo%20admin%20explorelombok,%20saya%20tertarik%20dengan%20paket%20Trip%20Wisata%20Sembalun"
+                        href="https://wa.me/6285337452003?text=halo%20admin%20ExploreLombok,%20saya%20tertarik%20dengan%20paket%20Trip%20Wisata%20Sembalun"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center bg-green-600 text-white font-bold py-4 px-8 rounded-full hover:bg-green-700 transition-colors text-lg shadow-lg transform hover:scale-105"

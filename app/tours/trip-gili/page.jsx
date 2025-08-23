@@ -117,7 +117,7 @@ export default function TripGiliTrawangan() {
                     <h3 className="text-xl font-bold mb-4 text-gray-800">Siap Berpetualang di Gili Trawangan?</h3>
                     <p className="text-gray-600 mb-6">Hubungi kami untuk menyesuaikan perjalanan Anda yang menyenangkan!</p>
                     <Link
-                        href="https://wa.me/6285337452003?text=Halo Admin Explore Lombok, Minta Info Tour Harian Gili Trawangan"
+                        href="https://wa.me/6285337452003?text=Halo Admin ExploreLombok, Minta Info Tour Harian Gili Trawangan"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center bg-green-600 text-white font-bold py-4 px-8 rounded-full hover:bg-green-700 transition-colors text-lg shadow-lg transform hover:scale-105"
