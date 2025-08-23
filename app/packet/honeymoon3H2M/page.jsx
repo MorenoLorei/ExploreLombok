@@ -51,6 +51,10 @@ export default function PaketHoneymoon3D2N() {
                                 <li>Antar ke Airport</li>
                             </ul>
                         </div>
+                        <div className="text-center">
+                            <p className="text-gray-700 font-medium mb-4">Detail Harga Paket Honeymoon 3 Hari 2 Malam (Paket A)</p>
+                            <LightboxImage src="/tourimage/HNM3H2M.png" alt="Detail Harga Paket Honeymoon A" />
+                        </div>
                     </div>
                 );
             case "B":
@@ -97,6 +101,10 @@ export default function PaketHoneymoon3D2N() {
                                 <li>Desa banyumulek: tempat kerajinan gerabah dari tanah liat</li>
                                 <li>Antar ke Airport</li>
                             </ul>
+                        </div>
+                        <div className="text-center">
+                            <p className="text-gray-700 font-medium mb-4">Detail Harga Paket Honeymoon 3 Hari 2 Malam (Paket B)</p>
+                            <LightboxImage src="/tourimage/HNM3H2MB.png" alt="Detail Harga Paket Honeymoon B" />
                         </div>
                     </div>
                 );
@@ -146,6 +154,10 @@ export default function PaketHoneymoon3D2N() {
                                 <li>Antar ke Airport</li>
                             </ul>
                         </div>
+                        <div className="text-center">
+                            <p className="text-gray-700 font-medium mb-4">Detail Harga Paket Honeymoon 3 Hari 2 Malam (Paket C)</p>
+                            <LightboxImage src="/tourimage/HNM3H2MC.png" alt="Detail Harga Paket Honeymoon C" />
+                        </div>
                     </div>
                 );
             case "no-hotel":
@@ -193,6 +205,10 @@ export default function PaketHoneymoon3D2N() {
                                 <li>Antar ke Airport</li>
                             </ul>
                         </div>
+                        <div className="text-center">
+                            <p className="text-gray-700 font-medium mb-4">Detail Harga Paket Honeymoon 3 Hari 2 Malam (Tanpa Hotel)</p>
+                            <LightboxImage src="/tourimage/HNM3H2MNH.png" alt="Detail Harga Paket Honeymoon Tanpa Hotel" />
+                        </div>
                     </div>
                 );
             default:
@@ -234,6 +250,28 @@ export default function PaketHoneymoon3D2N() {
         }
     };
 
+    const renderExcludedItems = () => {
+        if (activePackage === "no-hotel") {
+            return (
+                <ul className="space-y-2 text-gray-700 ml-4 list-disc">
+                    <li>Hotel</li>
+                    <li>Tiket pesawat</li>
+                    <li>pengeluaran pribadi</li>
+                    <li>boat & snorkeling</li>
+                    <li>High season</li>
+                </ul>
+            );
+        } else {
+            return (
+                <ul className="space-y-2 text-gray-700 ml-4 list-disc">
+                    <li>Tiket pesawat</li>
+                    <li>pengeluaran pribadi</li>
+                    <li>high season</li>
+                </ul>
+            );
+        }
+    };
+
     return (
         <div className="max-w-5xl mx-auto p-6 bg-gray-50 min-h-screen font-sans text-gray-800">
             {/* Header */}
@@ -245,7 +283,7 @@ export default function PaketHoneymoon3D2N() {
                     Paket Honeymoon Lombok 3 Hari 2 Malam
                 </h1>
                 <p className="text-gray-600 text-lg leading-relaxed max-w-3xl mx-auto">
-                    Paket bulan madu di Lombok kami sajikan untuk Anda dan pasangan yang ingin honeymoon romantis dengan pilihan wisata yang menambah kesan penuh cinta dan kasih.
+                    Paket honeymoon Lombok / paket bulan madu di Lombok kami sajikan untuk anda bersama pasangan yang ingin honeymoon romantis di Lombok, dengan banyaknya pilihan wisata yang menambah kesan romantis anda bersama pasangan, semoga Liburan di Lombok dan Honeymoon di Lombok anda bersama pasangan penuh cinta dan kasih bersama paket honeymoon yang kami berikan.
                 </p>
             </div>
 
@@ -312,11 +350,7 @@ export default function PaketHoneymoon3D2N() {
                     </div>
                     <div>
                         <h3 className="text-lg font-semibold mb-3 text-red-700">Harga Tidak Termasuk:</h3>
-                        <ul className="space-y-2 text-gray-700 ml-4 list-disc">
-                            <li>Tiket pesawat</li>
-                            <li>pengeluaran pribadi</li>
-                            <li>high season</li>
-                        </ul>
+                        {renderExcludedItems()}
                     </div>
                 </div>
             </div>
@@ -326,6 +360,7 @@ export default function PaketHoneymoon3D2N() {
                 <div className="bg-white rounded-xl p-8 shadow-sm border border-gray-200">
                     <h3 className="text-xl font-bold mb-4 text-gray-800">Hubungi Kami Sekarang!</h3>
                     <p className="text-gray-600 mb-6">Dapatkan konsultasi gratis dan penawaran terbaik untuk liburan impian Anda</p>
+                    <p className="text-gray-600 mb-6 text-sm">YUK..TRIP BARENG KAMI, ANDA BISA TRIP DULU BARU BAYAR</p>
                     <Link
                         href="https://wa.me/6285337452003?text=Halo%20Admin%20ExploreLombok,%20Minta%20Info%20Paket%20Honeymoon%203%20Hari%202%20Malam"
                         target="_blank"

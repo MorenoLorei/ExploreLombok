@@ -3,7 +3,7 @@
     "id": 1,
     "imageUrl": "/tourimage/Paket-Tour-2H1M.jpg",
     "name": "PAKET TOUR 2H1M",
-    "description": "Paket wisata sehari mengeksplorasi Gili Trawangan dengan snorkeling di spot terbaik, mengunjungi turtle point, dan menikmati sunset di pantai.",
+    "description": "Rasakan pengalaman singkat namun tak terlupakan, menjelajahi destinasi terbaik Lombok dalam waktu 2 hari.",
     "price": "869.000",
     "link": "packet/2H1M"
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "imageUrl": "/tourimage/Paket-Tour-3H2M.jpg",
     "name": "PAKET TOUR 3H2M",
-    "description": "Pengalaman budaya suku Sasak di Desa Sade, melihat proses tenun tradisional, dan menjelajahi keindahan Mandalika dengan pantai-pantainya yang memukau.",
+    "description": "Temukan perpaduan sempurna antara budaya, alam, dan petualangan. Paket ideal untuk merasakan keindahan Lombok secara menyeluruh.",
     "price": "1.650.000",
     "link": "packet/3H2M"
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "imageUrl": "/tourimage/Paket-Tour-4H3M.jpg",
     "name": "PAKET TOUR 4H3M",
-    "description": "Petualangan ke Pantai Pink Lombok yang eksotis, termasuk snorkeling di sekitar gili dan melihat keunikan pasir berwarna kemerahan.",
+    "description": "Nikmati eksplorasi yang lebih dalam. Paket 4 hari ini dirancang untuk Anda yang ingin merasakan setiap sudut pesona Lombok.",
     "price": "2.150.000",
     "link": "packet/4H3M"
   },
@@ -27,7 +27,7 @@
     "id": 4,
     "imageUrl": "/tourimage/Paket-Tour-5H4M.jpg",
     "name": "PAKET TOUR 5H4M",
-    "description": "Wisata bahari ke Gili Nanggu yang masih alami, termasuk snorkeling dengan ikan hias dan berjemur di pantai berpasir putih.",
+    "description": "Paket paling lengkap untuk liburan impian Anda. Petualangan 5 hari penuh untuk menikmati seluruh keindahan Lombok.",
     "price": "3.100.000",
     "link": "packet/5H4M"
   }

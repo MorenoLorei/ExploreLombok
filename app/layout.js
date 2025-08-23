@@ -4,6 +4,13 @@ export const metadata = {
     title: "Explore Lombok | Paket Tour Lombok & Sewa Mobil Murah",
     description: "Jelajahi keindahan Lombok dengan paket tour eksklusif dan layanan sewa mobil terpercaya. Nikmati petualangan tak terlupakan di Gili, Mandalika, dan Rinjani dengan harga terjangkau.",
     keywords: ["explore lombok", "paket tour lombok", "sewa mobil lombok", "wisata lombok", "tour gili", "trip mandalika", "sewa avanza lombok", "travel lombok"],
+    icons: {
+        icon: [
+            { url: "/explorelombok.png", type: "image/png", sizes: "32x32" },
+            { url: "/explorelombok.png", type: "image/png", sizes: "16x16" }
+        ],
+        apple: "/explorelombok.png",
+    },
     authors: [{ name: "Explore Lombok" }],
     robots: {
         index: true,

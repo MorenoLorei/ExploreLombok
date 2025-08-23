@@ -45,6 +45,10 @@ export default function Navbar() {
         };
     }, []);
 
+    const whatsappNumber = "6285337452003"; // Replace with your WhatsApp number
+    const whatsappMessage = "Halo admin ExploreLombok. saya ingin menanyakan sesuatu"; // Pre-filled message
+    const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
+
     return (
         <nav
             className={`fixed w-full top-0 z-50 transition-all duration-300 ${
@@ -202,6 +206,15 @@ export default function Navbar() {
                         >
                             Kebijakan Privasi
                         </Link>
+                        {/* WhatsApp button */}
+                        <a
+                            href={whatsappLink}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="bg-transparent border-2 border-green-500 text-green-500 py-1.5 px-4 rounded-full font-semibold transition-colors hover:bg-green-500 hover:text-white"
+                        >
+                            WhatsApp
+                        </a>
                     </div>
 
                     {/* Mobile menu button */}
@@ -349,6 +362,18 @@ export default function Navbar() {
                     >
                         Kebijakan Privasi
                     </Link>
+                    {/* WhatsApp button for mobile */}
+                    <a
+                        href={whatsappLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={`block px-4 py-3 hover:bg-white/20 transition-colors border-t-2 ${
+                            scrolled ? "border-gray-200 text-green-500" : "border-white/20 text-green-400"
+                        }`}
+                        onClick={() => setIsOpen(false)}
+                    >
+                        WhatsApp
+                    </a>
                 </div>
             )}
         </nav>

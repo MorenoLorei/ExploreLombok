@@ -3,7 +3,7 @@
     "id": 1,
     "imageUrl": "/tourimage/trip-gili.jpg",
     "name": "TRIP GILI TRAWANGAN",
-    "description": "Paket wisata sehari mengeksplorasi Gili Trawangan dengan snorkeling di spot terbaik, mengunjungi turtle point, dan menikmati sunset di pantai.",
+    "description": "Petualangan ke Gili Trawangan yang ikonik, dengan aktivitas snorkeling dan pemandangan laut yang memesona.",
     "price": "650.000",
     "link": "tours/trip-gili"
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "imageUrl": "/tourimage/trip-sasak.jpg",
     "name": "TRIP SASAK MANDALIKA",
-    "description": "Pengalaman budaya suku Sasak di Desa Sade, melihat proses tenun tradisional, dan menjelajahi keindahan Mandalika dengan pantai-pantainya yang memukau.",
+    "description": "Jelajahi kebudayaan suku Sasak dan nikmati keindahan alam kawasan Mandalika yang menakjubkan.",
     "price": "410.000",
     "link": "/tours/trip-sasak"
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "imageUrl": "/tourimage/trip-pantaipink.jpg",
     "name": "TRIP PANTAI PINK",
-    "description": "Petualangan ke Pantai Pink Lombok yang eksotis, termasuk snorkeling di sekitar gili dan melihat keunikan pasir berwarna kemerahan.",
+    "description": "Kunjungi Pantai Pink yang unik dengan pasir berwarna merah muda dan jelajahi pulau-pulau kecil di sekitarnya.",
     "price": " 675.000",
     "link": "/tours/trip-pantaipink"
   },
@@ -27,7 +27,7 @@
     "id": 4,
     "imageUrl": "/tourimage/trip-gili-nanggu.jpg",
     "name": "TRIP GILI NANGGU",
-    "description": "Wisata bahari ke Gili Nanggu yang masih alami, termasuk snorkeling dengan ikan hias dan berjemur di pantai berpasir putih.",
+    "description": "Rasakan ketenangan di Gili Nanggu, sebuah surga tersembunyi dengan keindahan bawah laut yang luar biasa.",
     "price": "570.000",
     "link": "/tours/trip-gili-nanggu"
   },
@@ -35,7 +35,7 @@
     "id": 5,
     "imageUrl": "/tourimage/trip-air-terjun.jpg",
     "name": "TRIP AIR TERJUN",
-    "description": "Tracking menuju air terjun Tiu Kelep atau Sendang Gile yang spektakuler, melewati hutan tropis dan pemandangan alam yang memesona.",
+    "description": "Temukan keindahan tersembunyi air terjun di kaki Gunung Rinjani, dengan petualangan di tengah hutan tropis.",
     "price": "480.000",
     "link": "/tours/trip-air-terjun"
   },
@@ -43,9 +43,8 @@
     "id": 8,
     "imageUrl": "/tourimage/trip-sembalun.jpg",
     "name": "TRIP SEMBALUN",
-    "description": "Tracking menuju air terjun Tiu Kelep atau Sendang Gile yang spektakuler, melewati hutan tropis dan pemandangan alam yang memesona.",
+    "description": "Nikmati keindahan perbukitan dan sawah terasering di kaki Gunung Rinjani, dengan suasana pegunungan yang sejuk.",
     "price": "475.000",
     "link": "/tours/trip-sembalun"
   }
-
 ]

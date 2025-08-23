@@ -1,22 +1,301 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
+import LightboxImage from "@/section/components/imageopener";
 
-export default function PaketHoneymoon() {
+export default function PaketHoneymoon4H3M() {
     const [activePackage, setActivePackage] = useState("A");
+
+    const renderPackageContent = (pkgId) => {
+        const day4ContentWithMeals = (
+            <div>
+                <h3 className="text-lg font-semibold mb-3 text-pink-700">HARI 4. CITY TOUR – AIRPORT (B, L)</h3>
+                <ul className="list-disc list-inside space-y-2 text-gray-700">
+                    <li>Jemput di hotel setelah breakfast langsung check out hotel</li>
+                    <li>Pusat oleh-oleh khas lombok, kaos lombok,makanan dan souvenir mutiara</li>
+                    <li>Islamic center NTB</li>
+                    <li>makan siang</li>
+                    <li>Desa banyumulek: tempat kerajinan gerabah dari tanah liat</li>
+                    <li>Antar ke Airport</li>
+                </ul>
+            </div>
+        );
+
+        const day4ContentWithoutMeals = (
+            <div>
+                <h3 className="text-lg font-semibold mb-3 text-pink-700">HARI 4. CITY TOUR – AIRPORT</h3>
+                <ul className="list-disc list-inside space-y-2 text-gray-700">
+                    <li>Jemput di hotel setelah breakfast langsung check out hotel</li>
+                    <li>Pusat oleh-oleh khas lombok, kaos lombok,makanan dan souvenir mutiara</li>
+                    <li>Islamic center NTB</li>
+                    <li>makan siang</li>
+                    <li>Desa banyumulek: tempat kerajinan gerabah dari tanah liat</li>
+                    <li>Antar ke Airport</li>
+                </ul>
+            </div>
+        );
+
+        const sasakTourContent = (
+            <div>
+                <h3 className="text-lg font-semibold mb-3 text-pink-700">HARI 1. SASAK TOUR + MANDALIKA (L, D)</h3>
+                <ul className="list-disc list-inside space-y-2 text-gray-700">
+                    <li>Desa Sukarara : Tempat Kerajinan Kain Tenun songket dan berfoto baju adat lombok (free)</li>
+                    <li>Desa Sade/ende : Tempat rumah adat tradisional lombok</li>
+                    <li>makan siang area kuta mandalika</li>
+                    <li>Pantai kuta mandalika</li>
+                    <li>Berfoto di tugu sirkuit mandalika</li>
+                    <li>Pantai Tanjung Aan</li>
+                    <li>Bukit Merese</li>
+                    <li>makan malam di Restoran khas lombok ayam taliwang</li>
+                    <li>Check In Hotel</li>
+                </ul>
+            </div>
+        );
+
+        switch (pkgId) {
+            case "A":
+                return (
+                    <div className="space-y-8">
+                        {sasakTourContent}
+                        <div>
+                            <h3 className="text-lg font-semibold mb-3 text-pink-700">HARI 2. TRIP GILI TRAWANGAN (B, L, D)</h3>
+                            <ul className="list-disc list-inside space-y-2 text-gray-700">
+                                <li>Jemput di hotel setelah breakfast</li>
+                                <li>Menuju pelabuhan</li>
+                                <li>Gili trawangan</li>
+                                <li>Makan siang</li>
+                                <li>Acara bebas</li>
+                                <li>Kembali ke pelabuhan</li>
+                                <li>Bukit malaka</li>
+                                <li>Bukit malimbu</li>
+                                <li>villa hantu spot foto</li>
+                                <li>SPA di senggigi</li>
+                                <li>Romantic dinner</li>
+                                <li>kembali ke hotel</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3 className="text-lg font-semibold mb-3 text-pink-700">HARI 3. TRIP AIR TERJUN DESA SENARU, SENDANG GILA & TIU KELEP (B, L, D)</h3>
+                            <ul className="list-disc list-inside space-y-2 text-gray-700">
+                                <li>Jemput di hotel setelah breakfast</li>
+                                <li>Desa senaru</li>
+                                <li>Air Terjun Sendang gila</li>
+                                <li>Air Terjun Tiu Kelep</li>
+                                <li>Makan siang</li>
+                                <li>Bukit malimbu</li>
+                                <li>Villa hantu senggigi spot foto</li>
+                                <li>Makan malam</li>
+                                <li>kembali ke hotel</li>
+                            </ul>
+                        </div>
+                        {day4ContentWithMeals}
+                        <div className="text-center">
+                            <p className="text-gray-700 font-medium mb-4">Detail Harga Paket Honeymoon Lombok 4 Hari 3 Malam (Paket A)</p>
+                            <LightboxImage src="/tourimage/honeymoon-4h3m-A.jpg" alt="Detail Harga Paket Honeymoon A" />
+                        </div>
+                    </div>
+                );
+            case "B":
+                return (
+                    <div className="space-y-8">
+                        {sasakTourContent}
+                        <div>
+                            <h3 className="text-lg font-semibold mb-3 text-pink-700">HARI 2. TRIP GILI TRAWANGAN (B, L, D)</h3>
+                            <ul className="list-disc list-inside space-y-2 text-gray-700">
+                                <li>Jemput di hotel setelah breakfast</li>
+                                <li>Menuju pelabuhan</li>
+                                <li>Gili trawangan</li>
+                                <li>Makan siang</li>
+                                <li>Acara bebas</li>
+                                <li>Kembali ke pelabuhan</li>
+                                <li>Bukit malaka</li>
+                                <li>Bukit malimbu</li>
+                                <li>villa hantu spot foto</li>
+                                <li>SPA di senggigi</li>
+                                <li>makan malam</li>
+                                <li>kembali ke hotel</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3 className="text-lg font-semibold mb-3 text-pink-700">HARI 3. TRIP GILI NANGGU, KEDIS, SUDAK (B, L, D)</h3>
+                            <ul className="list-disc list-inside space-y-2 text-gray-700">
+                                <li>Jemput di hotel setelah breakfast</li>
+                                <li>Menuju pelabuhan tawun sekotong</li>
+                                <li>Gili nanggu</li>
+                                <li>Gili kedis</li>
+                                <li>Gili sudak</li>
+                                <li>Makan siang</li>
+                                <li>Desa banyumulek</li>
+                                <li>Makan malam</li>
+                                <li>Kembali ke hotel</li>
+                            </ul>
+                        </div>
+                        {day4ContentWithMeals}
+                        <div className="text-center">
+                            <p className="text-gray-700 font-medium mb-4">Detail Harga Paket Honeymoon Lombok 4 Hari 3 Malam (Paket B)</p>
+                            <LightboxImage src="/tourimage/honeymoon-4h3m-B.jpg" alt="Detail Harga Paket Honeymoon B" />
+                        </div>
+                    </div>
+                );
+            case "C":
+                return (
+                    <div className="space-y-8">
+                        {sasakTourContent}
+                        <div>
+                            <h3 className="text-lg font-semibold mb-3 text-pink-700">HARI 2. TRIP 3 GILI (GILI AIR, GILI MENO, GILI TRAWANGAN + SNORKELING)</h3>
+                            <ul className="list-disc list-inside space-y-2 text-gray-700">
+                                <li>Jemput di hotel setelah breakfast</li>
+                                <li>Menuju Pelabuhan</li>
+                                <li>Menuju gili air, snorkeling spot ikan dan coral</li>
+                                <li>Gili meno spot penyu, patung, ikan dan coral</li>
+                                <li>Gili trawangan dan makan siang</li>
+                                <li>Acara bebas di gilitrawangan</li>
+                                <li>Kembali ke pelabuhan</li>
+                                <li>Bukit malaka</li>
+                                <li>Bukit malimbu</li>
+                                <li>Villa hantu spot foto</li>
+                                <li>makan malam</li>
+                                <li>kembali ke hotel</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3 className="text-lg font-semibold mb-3 text-pink-700">HARI 3. TRIP PANTAI PINK (B, L, D)</h3>
+                            <ul className="list-disc list-inside space-y-2 text-gray-700">
+                                <li>Jemput di hotel setelah breakfast</li>
+                                <li>Menuju pelabuhan tanjung luar</li>
+                                <li>Pulau pasir</li>
+                                <li>Pantai pink 1</li>
+                                <li>Makan siang</li>
+                                <li>Bukit tangsi</li>
+                                <li>Gili petelu</li>
+                                <li>Pantai pink 2</li>
+                                <li>Makan malam</li>
+                                <li>kembali ke hotel</li>
+                            </ul>
+                        </div>
+                        {day4ContentWithMeals}
+                        <div className="text-center">
+                            <p className="text-gray-700 font-medium mb-4">Detail Harga Paket Honeymoon Lombok 4 Hari 3 Malam (Paket C)</p>
+                            <LightboxImage src="/tourimage/honeymoon-4h3m-C.jpg" alt="Detail Harga Paket Honeymoon C" />
+                        </div>
+                    </div>
+                );
+            case "no-hotel":
+                return (
+                    <div className="space-y-8">
+                        {sasakTourContent}
+                        <div>
+                            <h3 className="text-lg font-semibold mb-3 text-pink-700">HARI 2. TRIP 3 GILI ( GILI AIR, GILI MENO, GILI TRAWANGAN + SNORKELING)</h3>
+                            <ul className="list-disc list-inside space-y-2 text-gray-700">
+                                <li>Jemput di hotel setelah breakfast</li>
+                                <li>Menuju Pelabuhan</li>
+                                <li>Menuju gili air, snorkeling spot ikan dan coral</li>
+                                <li>Gili meno spot penyu, patung, ikan dan coral</li>
+                                <li>Gili trawangan dan makan siang</li>
+                                <li>Acara bebas di gilitrawangan</li>
+                                <li>Kembali ke pelabuhan</li>
+                                <li>Bukit malaka</li>
+                                <li>Bukit malimbu</li>
+                                <li>Villa hantu spot foto</li>
+                                <li>makan malam</li>
+                                <li>kembali ke hotel</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3 className="text-lg font-semibold mb-3 text-pink-700">HARI 3. TRIP PANTAI PINK (B, L, D)</h3>
+                            <ul className="list-disc list-inside space-y-2 text-gray-700">
+                                <li>Jemput di hotel setelah breakfast</li>
+                                <li>Menuju pelabuhan tanjung luar</li>
+                                <li>Pulau pasir</li>
+                                <li>Pantai pink 1</li>
+                                <li>Makan siang</li>
+                                <li>Bukit tangsi</li>
+                                <li>Gili petelu</li>
+                                <li>Pantai pink 2</li>
+                                <li>Makan malam</li>
+                                <li>kembali ke hotel</li>
+                            </ul>
+                        </div>
+                        {day4ContentWithoutMeals}
+                        <div className="text-center">
+                            <p className="text-gray-700 font-medium mb-4">Detail Harga Paket Honeymoon 4 Hari 3 Malam (Tanpa Hotel)</p>
+                            <LightboxImage src="/tourimage/honeymoon-4h3m-no-hotel.jpg" alt="Detail Harga Paket Honeymoon Tanpa Hotel" />
+                        </div>
+                    </div>
+                );
+            default:
+                return null;
+        }
+    };
+
+    const renderIncludedItems = () => {
+        if (activePackage === "no-hotel") {
+            return (
+                <ul className="space-y-2 text-gray-700 ml-4 list-disc">
+                    <li>Private transport antar jemput ( driver + bensin )</li>
+                    <li>Free makan 6x ( termasuk romantic dinner )</li>
+                    <li>air mineral selama tour</li>
+                    <li>tiket wisata</li>
+                    <li>guide</li>
+                    <li>parkir</li>
+                    <li>dokumentasi</li>
+                </ul>
+            );
+        } else {
+            return (
+                <ul className="space-y-2 text-gray-700 ml-4 list-disc">
+                    <li>Hotel sesuai pilihan</li>
+                    <li>Private transport antar jemput ( driver + bensin )</li>
+                    <li>Tiket wisata</li>
+                    <li>Free makan 7x ( termasuk romantic dinner)</li>
+                    <li>Breakfast di hotel 3x</li>
+                    <li>Decorasi honeymmon</li>
+                    <li>Spa</li>
+                    <li>Air mineral selama tour</li>
+                    <li>private glass bottom boat plus snorkeling jika pilih paket C</li>
+                    <li>private speed boat ke gili trawangan</li>
+                    <li>guide</li>
+                    <li>parkir</li>
+                    <li>dokumentasi</li>
+                </ul>
+            );
+        }
+    };
+
+    const renderExcludedItems = () => {
+        if (activePackage === "no-hotel") {
+            return (
+                <ul className="space-y-2 text-gray-700 ml-4 list-disc">
+                    <li>Hotel</li>
+                    <li>tiket pesawat</li>
+                    <li>pengeluaran pribadi</li>
+                    <li>boat & snorkeling</li>
+                    <li>High season</li>
+                </ul>
+            );
+        } else {
+            return (
+                <ul className="space-y-2 text-gray-700 ml-4 list-disc">
+                    <li>Tiket pesawat</li>
+                    <li>pengeluaran pribadi</li>
+                    <li>high season</li>
+                </ul>
+            );
+        }
+    };
 
     return (
         <div className="max-w-5xl mx-auto p-6 bg-gray-50 min-h-screen font-sans text-gray-800">
             {/* Header */}
             <div className="bg-white rounded-xl p-8 text-center mb-12 shadow-sm border border-gray-200">
                 <div className="inline-block bg-pink-100 text-pink-800 px-4 py-1 rounded-full text-sm font-semibold mb-4 tracking-wide">
-                    Honeymoon Tour
+                    Liburan Romantis
                 </div>
                 <h1 className="text-4xl md:text-5xl font-extrabold mb-6 text-gray-900 leading-tight">
                     Paket Honeymoon Lombok 4 Hari 3 Malam
                 </h1>
                 <p className="text-gray-600 text-lg leading-relaxed max-w-3xl mx-auto">
-                    Paket bulan madu di Lombok kami sajikan untuk Anda dan pasangan yang ingin honeymoon romantis di Lombok, dengan banyaknya pilihan wisata yang akan menambah kesan penuh cinta dan kasih.
+                    Paket honeymoon Lombok / paket bulan madu di Lombok kami sajikan untuk anda bersama pasangan yang ingin honeymoon romantis di Lombok, dengan banyaknya pilihan wisata yang menambah kesan romantis anda bersama pasangan, semoga Liburan di Lombok dan Honeymoon di Lombok anda bersama pasangan penuh cinta dan kasih bersama paket honeymoon yang kami berikan.
                 </p>
             </div>
 
@@ -50,264 +329,13 @@ export default function PaketHoneymoon() {
                 </div>
             </div>
 
-            {/* Content for active package */}
-            {activePackage === "A" && (
-                <div className="bg-white rounded-xl p-8 mb-8 shadow-sm border border-gray-200">
-                    <h2 className="text-2xl font-bold mb-6 text-gray-800 border-b pb-2 border-gray-200">Paket Honeymoon Lombok 4 Hari 3 Malam (Paket A)</h2>
-                    <div className="space-y-8">
-                        <div>
-                            <h3 className="text-lg font-semibold mb-3 text-pink-700">HARI 1. SASAK TOUR + MANDALIKA (L, D)</h3>
-                            <ul className="list-disc list-inside space-y-2 text-gray-700">
-                                <li>Desa Sukarara : Tempat Kerajinan Kain Tenun songket dan berfoto baju adat lombok (free)</li>
-                                <li>Desa Sade/ende : Tempat rumah adat tradisional lombok</li>
-                                <li>makan siang area kuta mandalika</li>
-                                <li>Pantai kuta mandalika</li>
-                                <li>Berfoto di tugu sirkuit mandalika</li>
-                                <li>Pantai Tanjung Aan</li>
-                                <li>Bukit Merese</li>
-                                <li>makan malam di Restoran khas lombok ayam taliwang</li>
-                                <li>Check In Hotel</li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h3 className="text-lg font-semibold mb-3 text-pink-700">HARI 2. TRIP GILI TRAWANGAN (B, L, D)</h3>
-                            <ul className="list-disc list-inside space-y-2 text-gray-700">
-                                <li>Jemput di hotel setelah breakfast</li>
-                                <li>Menuju pelabuhan</li>
-                                <li>Gili trawangan</li>
-                                <li>Makan siang</li>
-                                <li>Acara bebas</li>
-                                <li>Kembali ke pelabuhan</li>
-                                <li>Bukit malaka</li>
-                                <li>Bukit malimbu</li>
-                                <li>villa hantu spot foto</li>
-                                <li>SPA di senggigi</li>
-                                <li>Romantic dinner</li>
-                                <li>kembali ke hotel</li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h3 className="text-lg font-semibold mb-3 text-pink-700">HARI 3. TRIP AIR TERJUN DESA SENARU, SENDANG GILA & TIU KELEP (B, L, D)</h3>
-                            <ul className="list-disc list-inside space-y-2 text-gray-700">
-                                <li>Jemput di hotel setelah breakfast</li>
-                                <li>Desa senaru</li>
-                                <li>Air Terjun Sendang gila</li>
-                                <li>Air Terjun Tiu Kelep</li>
-                                <li>Makan siang</li>
-                                <li>Bukit malimbu</li>
-                                <li>Villa hantu senggigi spot foto</li>
-                                <li>Makan malam</li>
-                                <li>kembali ke hotel</li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h3 className="text-lg font-semibold mb-3 text-pink-700">HARI 4. CITY TOUR – AIRPORT (B, L)</h3>
-                            <ul className="list-disc list-inside space-y-2 text-gray-700">
-                                <li>Jemput di hotel setelah breakfast langsung check out hotel</li>
-                                <li>Pusat oleh-oleh khas lombok, kaos lombok,makanan dan souvenir mutiara</li>
-                                <li>Islamic center NTB</li>
-                                <li>makan siang</li>
-                                <li>Desa banyumulek: tempat kerajinan gerabah dari tanah liat</li>
-                                <li>Antar ke Airport</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            )}
-
-            {activePackage === "B" && (
-                <div className="bg-white rounded-xl p-8 mb-8 shadow-sm border border-gray-200">
-                    <h2 className="text-2xl font-bold mb-6 text-gray-800 border-b pb-2 border-gray-200">Paket Honeymoon Lombok 4 Hari 3 Malam (Paket B)</h2>
-                    <div className="space-y-8">
-                        <div>
-                            <h3 className="text-lg font-semibold mb-3 text-pink-700">HARI 1. SASAK TOUR + MANDALIKA (L, D)</h3>
-                            <ul className="list-disc list-inside space-y-2 text-gray-700">
-                                <li>Desa Sukarara : Tempat Kerajinan Kain Tenun songket dan berfoto baju adat lombok (free)</li>
-                                <li>Desa Sade/ende : Tempat rumah adat tradisional lombok</li>
-                                <li>makan siang area kuta mandalika</li>
-                                <li>Pantai kuta mandalika</li>
-                                <li>Berfoto di tugu sirkuit mandalika</li>
-                                <li>Pantai Tanjung Aan</li>
-                                <li>Bukit Merese</li>
-                                <li>makan malam di Restoran khas lombok ayam taliwang</li>
-                                <li>Check In Hotel</li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h3 className="text-lg font-semibold mb-3 text-pink-700">HARI 2. TRIP GILI TRAWANGAN (B, L, D)</h3>
-                            <ul className="list-disc list-inside space-y-2 text-gray-700">
-                                <li>Jemput di hotel setelah breakfast</li>
-                                <li>Menuju pelabuhan</li>
-                                <li>Gili trawangan</li>
-                                <li>Makan siang</li>
-                                <li>Acara bebas</li>
-                                <li>Kembali ke pelabuhan</li>
-                                <li>Bukit malaka</li>
-                                <li>Bukit malimbu</li>
-                                <li>villa hantu spot foto</li>
-                                <li>SPA di senggigi</li>
-                                <li>makan malam</li>
-                                <li>kembali ke hotel</li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h3 className="text-lg font-semibold mb-3 text-pink-700">HARI 3. TRIP GILI NANGGU, KEDIS, SUDAK (B, L, D)</h3>
-                            <ul className="list-disc list-inside space-y-2 text-gray-700">
-                                <li>Jemput di hotel setelah breakfast</li>
-                                <li>Menuju pelabuhan tawun sekotong</li>
-                                <li>Gili nanggu</li>
-                                <li>Gili kedis</li>
-                                <li>Gili sudak</li>
-                                <li>Makan siang</li>
-                                <li>Desa banyumulek</li>
-                                <li>Makan malam</li>
-                                <li>Kembali ke hotel</li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h3 className="text-lg font-semibold mb-3 text-pink-700">HARI 4. CITY TOUR – AIRPORT (B, L)</h3>
-                            <ul className="list-disc list-inside space-y-2 text-gray-700">
-                                <li>Jemput di hotel setelah breakfast langsung check out hotel</li>
-                                <li>Pusat oleh-oleh khas lombok, kaos lombok,makanan dan souvenir mutiara</li>
-                                <li>Islamic center NTB</li>
-                                <li>makan siang</li>
-                                <li>Desa banyumulek: tempat kerajinan gerabah dari tanah liat</li>
-                                <li>Antar ke Airport</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            )}
-
-            {activePackage === "C" && (
-                <div className="bg-white rounded-xl p-8 mb-8 shadow-sm border border-gray-200">
-                    <h2 className="text-2xl font-bold mb-6 text-gray-800 border-b pb-2 border-gray-200">Paket Honeymoon Lombok 4 Hari 3 Malam (Paket C)</h2>
-                    <div className="space-y-8">
-                        <div>
-                            <h3 className="text-lg font-semibold mb-3 text-pink-700">HARI 1. SASAK TOUR + MANDALIKA (L, D)</h3>
-                            <ul className="list-disc list-inside space-y-2 text-gray-700">
-                                <li>Desa Sukarara : Tempat Kerajinan Kain Tenun songket dan berfoto baju adat lombok (free)</li>
-                                <li>Desa Sade/ende : Tempat rumah adat tradisional lombok</li>
-                                <li>makan siang area kuta mandalika</li>
-                                <li>Pantai kuta mandalika</li>
-                                <li>Berfoto di tugu sirkuit mandalika</li>
-                                <li>Pantai Tanjung Aan</li>
-                                <li>Bukit Merese</li>
-                                <li>makan malam di Restoran khas lombok ayam taliwang</li>
-                                <li>Check In Hotel</li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h3 className="text-lg font-semibold mb-3 text-pink-700">HARI 2. TRIP 3 GILI (GILI AIR, GILI MENO, GILI TRAWANGAN + SNORKELING)</h3>
-                            <ul className="list-disc list-inside space-y-2 text-gray-700">
-                                <li>Jemput di hotel setelah breakfast</li>
-                                <li>Menuju Pelabuhan</li>
-                                <li>Menuju gili air, snorkeling spot ikan dan coral</li>
-                                <li>Gili meno spot penyu, patung, ikan dan coral</li>
-                                <li>Gili trawangan dan makan siang</li>
-                                <li>Acara bebas di gilitrawangan</li>
-                                <li>Kembali ke pelabuhan</li>
-                                <li>Bukit malaka</li>
-                                <li>Bukit malimbu</li>
-                                <li>Villa hantu spot foto</li>
-                                <li>makan malam</li>
-                                <li>kembali ke hotel</li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h3 className="text-lg font-semibold mb-3 text-pink-700">HARI 3. TRIP PANTAI PINK (B, L, D)</h3>
-                            <ul className="list-disc list-inside space-y-2 text-gray-700">
-                                <li>Jemput di hotel setelah breakfast</li>
-                                <li>Menuju pelabuhan tanjung luar</li>
-                                <li>Pulau pasir</li>
-                                <li>Pantai pink 1</li>
-                                <li>Makan siang</li>
-                                <li>Bukit tangsi</li>
-                                <li>Gili petelu</li>
-                                <li>Pantai pink 2</li>
-                                <li>Makan malam</li>
-                                <li>kembali ke hotel</li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h3 className="text-lg font-semibold mb-3 text-pink-700">HARI 4. CITY TOUR – AIRPORT (B, L)</h3>
-                            <ul className="list-disc list-inside space-y-2 text-gray-700">
-                                <li>Jemput di hotel setelah breakfast langsung check out hotel</li>
-                                <li>Pusat oleh-oleh khas lombok, kaos lombok,makanan dan souvenir mutiara</li>
-                                <li>Islamic center NTB</li>
-                                <li>makan siang</li>
-                                <li>Desa banyumulek: tempat kerajinan gerabah dari tanah liat</li>
-                                <li>Antar ke Airport</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            )}
-
-            {activePackage === "no-hotel" && (
-                <div className="bg-white rounded-xl p-8 mb-8 shadow-sm border border-gray-200">
-                    <h2 className="text-2xl font-bold mb-6 text-gray-800 border-b pb-2 border-gray-200">Pilihan Kedua Paket Honeymoon Lombok 4 Hari 3 Malam Tanpa Hotel</h2>
-                    <div className="space-y-8">
-                        <div>
-                            <h3 className="text-lg font-semibold mb-3 text-pink-700">HARI 1. SASAK TOUR + MANDALIKA (L, D)</h3>
-                            <ul className="list-disc list-inside space-y-2 text-gray-700">
-                                <li>Desa Sukarara : Tempat Kerajinan Kain Tenun songket dan berfoto baju adat lombok (free)</li>
-                                <li>Desa Sade/ende : Tempat rumah adat tradisional lombok</li>
-                                <li>makan siang area kuta mandalika</li>
-                                <li>Pantai kuta mandalika</li>
-                                <li>Berfoto di tugu sirkuit mandalika</li>
-                                <li>Pantai Tanjung Aan</li>
-                                <li>Bukit Merese</li>
-                                <li>makan malam di Restoran khas lombok ayam taliwang</li>
-                                <li>Check In Hotel</li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h3 className="text-lg font-semibold mb-3 text-pink-700">HARI 2. TRIP 3 GILI ( GILI AIR, GILI MENO, GILI TRAWANGAN + SNORKELING)</h3>
-                            <ul className="list-disc list-inside space-y-2 text-gray-700">
-                                <li>Jemput di hotel setelah breakfast</li>
-                                <li>Menuju Pelabuhan</li>
-                                <li>Menuju gili air, snorkeling spot ikan dan coral</li>
-                                <li>Gili meno spot penyu, patung, ikan dan coral</li>
-                                <li>Gili trawangan dan makan siang</li>
-                                <li>Acara bebas di gilitrawangan</li>
-                                <li>Kembali ke pelabuhan</li>
-                                <li>Bukit malaka</li>
-                                <li>Bukit malimbu</li>
-                                <li>Villa hantu spot foto</li>
-                                <li>makan malam</li>
-                                <li>kembali ke hotel</li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h3 className="text-lg font-semibold mb-3 text-pink-700">HARI 3. TRIP PANTAI PINK (B, L, D)</h3>
-                            <ul className="list-disc list-inside space-y-2 text-gray-700">
-                                <li>Jemput di hotel setelah breakfast</li>
-                                <li>Menuju pelabuhan tanjung luar</li>
-                                <li>Pulau pasir</li>
-                                <li>Pantai pink 1</li>
-                                <li>Makan siang</li>
-                                <li>Bukit tangsi</li>
-                                <li>Gili petelu</li>
-                                <li>Pantai pink 2</li>
-                                <li>Makan malam</li>
-                                <li>kembali ke hotel</li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h3 className="text-lg font-semibold mb-3 text-pink-700">HARI 4. CITY TOUR – AIRPORT (B, L)</h3>
-                            <ul className="list-disc list-inside space-y-2 text-gray-700">
-                                <li>Jemput di hotel setelah breakfast langsung check out hotel</li>
-                                <li>Pusat oleh-oleh khas lombok, kaos lombok,makanan dan souvenir mutiara</li>
-                                <li>Islamic center NTB</li>
-                                <li>makan siang</li>
-                                <li>Desa banyumulek: tempat kerajinan gerabah dari tanah liat</li>
-                                <li>Antar ke Airport</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            )}
+            {/* Package Content */}
+            <div className="bg-white rounded-xl p-8 mb-8 shadow-sm border border-gray-200">
+                <h2 className="text-2xl font-bold mb-6 text-gray-800 border-b pb-2 border-gray-200">
+                    {`Paket Honeymoon 4 Hari 3 Malam (${activePackage === "no-hotel" ? "Tanpa Hotel" : `Paket ${activePackage}`})`}
+                </h2>
+                {renderPackageContent(activePackage)}
+            </div>
 
             {/* Keterangan */}
             <div className="bg-white rounded-xl p-8 mb-8 shadow-sm border border-gray-200">
@@ -327,34 +355,14 @@ export default function PaketHoneymoon() {
                         Harga paket Honeymoon di atas adalah harga untuk **dua (2) orang** dan berdasarkan tipe hotel.
                     </p>
                 </div>
-
-                {/* Included/Excluded Items */}
                 <div className="grid md:grid-cols-2 gap-8">
                     <div>
                         <h3 className="text-lg font-semibold mb-3 text-green-700">Harga Sudah Termasuk:</h3>
-                        <ul className="space-y-2 text-gray-700 ml-4 list-disc">
-                            <li>Hotel sesuai pilihan</li>
-                            <li>Private transport antar jemput (driver + bensin)</li>
-                            <li>Tiket wisata</li>
-                            <li>Free makan 7x (termasuk romantic dinner)</li>
-                            <li>Breakfast di hotel 3x</li>
-                            <li>Decorasi honeymoon</li>
-                            <li>Spa</li>
-                            <li>Air mineral selama tour</li>
-                            <li>private glass bottom boat plus snorkeling jika pilih paket C</li>
-                            <li>private speed boat ke gili trawangan</li>
-                            <li>guide</li>
-                            <li>parkir</li>
-                            <li>dokumentasi</li>
-                        </ul>
+                        {renderIncludedItems()}
                     </div>
                     <div>
                         <h3 className="text-lg font-semibold mb-3 text-red-700">Harga Tidak Termasuk:</h3>
-                        <ul className="space-y-2 text-gray-700 ml-4 list-disc">
-                            <li>Tiket pesawat</li>
-                            <li>pengeluaran pribadi</li>
-                            <li>high season</li>
-                        </ul>
+                        {renderExcludedItems()}
                     </div>
                 </div>
             </div>
@@ -364,8 +372,9 @@ export default function PaketHoneymoon() {
                 <div className="bg-white rounded-xl p-8 shadow-sm border border-gray-200">
                     <h3 className="text-xl font-bold mb-4 text-gray-800">Hubungi Kami Sekarang!</h3>
                     <p className="text-gray-600 mb-6">Dapatkan konsultasi gratis dan penawaran terbaik untuk liburan impian Anda</p>
+                    <p className="text-gray-600 mb-6 text-sm">YUK..TRIP BARENG KAMI, ANDA BISA TRIP DULU BARU BAYAR</p>
                     <Link
-                        href="https://wa.me/6285337452003?text=Halo%20Admin%20ExploreLombok,%20Minta%20Info%20Paket%20Honeymoon%20Lombok%204%20Hari%203%20Malam"
+                        href="https://wa.me/6285337452003?text=Halo%20Admin%20ExploreLombok,%20Minta%20Info%20Paket%20Honeymoon%204%20Hari%203%20Malam"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center bg-green-600 text-white font-bold py-4 px-8 rounded-full hover:bg-green-700 transition-colors text-lg shadow-lg transform hover:scale-105"
