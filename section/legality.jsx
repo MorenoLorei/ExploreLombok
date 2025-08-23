@@ -5,19 +5,20 @@ const Legalitas = () => {
     return (
         <section className="bg-white py-8">
             <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-                {/* This div uses a padding-top trick to maintain a 16:9 aspect ratio.
-                  The percentage is calculated as (image_height / image_width) * 100.
-                  This makes the container's height responsive to its width.
-                */}
-                <div className="relative w-full pt-[56.25%] mb-6">
+                {/* Legalitas Document Image */}
+                <figure className="relative w-full pt-[56.25%] mb-6">
                     <Image
                         src="/oss-1.png"
-                        alt="Legalitas document"
-                        layout="fill"
-                        objectFit="contain" // Ensures the entire image is visible, scaling to fit the container
+                        alt="Dokumen resmi OSS yang menunjukkan legalitas PT Explore Lombok Tour"
+                        fill
+                        className="object-contain"
                     />
-                </div>
+                    <figcaption className="sr-only">
+                        Dokumen resmi OSS Kementerian Investasi/BKPM
+                    </figcaption>
+                </figure>
 
+                {/* Content */}
                 <div className="p-6 sm:p-8">
                     <h2 className="text-3xl font-bold text-center text-gray-900 mb-6">
                         LEGALITAS KAMI
@@ -29,11 +30,17 @@ const Legalitas = () => {
                         <ul className="space-y-2 text-base">
                             <li>
                                 <span className="font-semibold text-gray-900">NIB:</span>
-                                <span className="ml-2 font-mono text-green-600">0305230055033</span>
+                                <span className="ml-2 font-mono font-semibold text-green-800">
+                                    0305230055033
+                                </span>
                             </li>
                             <li>
-                                <span className="font-semibold text-gray-900">Nama Pelaku Usaha / Badan Usaha:</span>
-                                <span className="ml-2 text-lg font-bold text-gray-800">PT. EXPLORE LOMBOK TOUR</span>
+                                <span className="font-semibold text-gray-900">
+                                    Nama Pelaku Usaha / Badan Usaha:
+                                </span>
+                                <span className="ml-2 text-lg font-bold text-gray-800">
+                                    PT. EXPLORE LOMBOK TOUR
+                                </span>
                             </li>
                             <li>
                                 <span className="font-semibold text-gray-900">Skala Usaha:</span>
@@ -45,7 +52,8 @@ const Legalitas = () => {
                             </li>
                         </ul>
                         <p className="text-lg font-medium text-gray-800 mt-4">
-                            Adalah benar, sah, dan tercatat dalam data kami serta diterbitkan oleh Lembaga OSS melalui Sistem OSS Berbasis Risiko.
+                            Adalah benar, sah, dan tercatat dalam data kami serta diterbitkan oleh
+                            Lembaga OSS melalui Sistem OSS Berbasis Risiko.
                         </p>
                     </div>
                 </div>
