@@ -3,10 +3,10 @@ import Image from 'next/image';
 
 const Legalitas = () => {
     return (
-        <section className="bg-white py-8">
+        <section className="bg-white py-8 mt-[7rem]">
             <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
                 {/* Legalitas Document Image */}
-                <figure className="relative w-full pt-[56.25%] mb-6">
+                <figure className="relative w-full pt-[25.25%] mb-6">
                     <Image
                         src="/oss-1.png"
                         alt="Dokumen resmi OSS yang menunjukkan legalitas PT Explore Lombok Tour"

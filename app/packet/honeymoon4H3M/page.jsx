@@ -91,7 +91,7 @@ export default function PaketHoneymoon4H3M() {
                         {day4ContentWithMeals}
                         <div className="text-center">
                             <p className="text-gray-700 font-medium mb-4">Detail Harga Paket Honeymoon Lombok 4 Hari 3 Malam (Paket A)</p>
-                            <LightboxImage src="/tourimage/honeymoon-4h3m-A.jpg" alt="Detail Harga Paket Honeymoon A" />
+                            <LightboxImage src="/tourimage/HNM4H3A.png" alt="Detail Harga Paket Honeymoon A" />
                         </div>
                     </div>
                 );
@@ -133,7 +133,7 @@ export default function PaketHoneymoon4H3M() {
                         {day4ContentWithMeals}
                         <div className="text-center">
                             <p className="text-gray-700 font-medium mb-4">Detail Harga Paket Honeymoon Lombok 4 Hari 3 Malam (Paket B)</p>
-                            <LightboxImage src="/tourimage/honeymoon-4h3m-B.jpg" alt="Detail Harga Paket Honeymoon B" />
+                            <LightboxImage src="/tourimage/HNM4H3MB.png" alt="Detail Harga Paket Honeymoon B" />
                         </div>
                     </div>
                 );
@@ -176,7 +176,7 @@ export default function PaketHoneymoon4H3M() {
                         {day4ContentWithMeals}
                         <div className="text-center">
                             <p className="text-gray-700 font-medium mb-4">Detail Harga Paket Honeymoon Lombok 4 Hari 3 Malam (Paket C)</p>
-                            <LightboxImage src="/tourimage/honeymoon-4h3m-C.jpg" alt="Detail Harga Paket Honeymoon C" />
+                            <LightboxImage src="/tourimage/HNM4H3MC.png" alt="Detail Harga Paket Honeymoon C" />
                         </div>
                     </div>
                 );
@@ -219,7 +219,7 @@ export default function PaketHoneymoon4H3M() {
                         {day4ContentWithoutMeals}
                         <div className="text-center">
                             <p className="text-gray-700 font-medium mb-4">Detail Harga Paket Honeymoon 4 Hari 3 Malam (Tanpa Hotel)</p>
-                            <LightboxImage src="/tourimage/honeymoon-4h3m-no-hotel.jpg" alt="Detail Harga Paket Honeymoon Tanpa Hotel" />
+                            <LightboxImage src="/tourimage/HNM4H3MNH.png" alt="Detail Harga Paket Honeymoon Tanpa Hotel" />
                         </div>
                     </div>
                 );
