@@ -1,5 +1,7 @@
 "use client";
 import Link from "next/link";
+import BackToHomeButton from "@/section/components/backhomebtn";
+import React from "react";
 
 export default function PaketTourKomodo4H3M() {
     return (
@@ -138,6 +140,7 @@ export default function PaketTourKomodo4H3M() {
                     <p className="text-gray-600 mt-4 text-sm">Respon cepat dalam 5 menit</p>
                 </div>
             </div>
+            <BackToHomeButton />
         </div>
     );
 }

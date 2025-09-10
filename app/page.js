@@ -6,9 +6,11 @@ import Footer from "@/section/section/Footer";
 import Paket from "@/section/section/Paket";
 import HoneymoonPackages from "@/section/section/Honeymoon";
 import Paketlabuanbajo from "@/section/section/labuanbajo";
-import SewaMobil from "@/section/section/SewaMobil";
 import Legalitas from "@/section/section/legality";
 import SocialMediaSection from "@/section/section/social";
+import CarRental from "@/section/section/SewaMobil";
+import BaliTour from "@/section/section/bali";
+import Blog from "@/section/section/blog";
 
 export default function Main() {
     return (
@@ -18,9 +20,11 @@ export default function Main() {
                 <Hero />
                 <Tour />
                 <Paket />
+                <BaliTour />
                 <Paketlabuanbajo />
                 <HoneymoonPackages />
-                <SewaMobil />
+                <CarRental />
+                <Blog />
                 <SocialMediaSection />
                 <Legalitas />
             </main>

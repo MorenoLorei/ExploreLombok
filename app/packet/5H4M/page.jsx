@@ -1,6 +1,7 @@
 "use client";
-import { useState } from "react";
+import React, { useState } from "react";
 import LightboxImage from "@/section/components/imageopener";
+import BackToHomeButton from "@/section/components/backhomebtn";
 
 export default function PaketTourLombok5H4M() {
     const [activePackage, setActivePackage] = useState("A");
@@ -449,6 +450,7 @@ export default function PaketTourLombok5H4M() {
                     <p className="text-gray-600 mt-4 text-sm">Respon cepat dalam 5 menit</p>
                 </div>
             </div>
+            <BackToHomeButton />
         </div>
     );
 }

@@ -1,0 +1,42 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/
+Disallow: /dashboard/
+Disallow: /_next/
+Disallow: /*.json$
+Disallow: /*?*
+Crawl-delay: 1
+
+# Sitemap
+Sitemap: https://explorelombokbali.com/sitemap.xml
+
+# Allow image indexing for better visual search
+User-agent: Googlebot-Image
+Allow: /
+Allow: /*.jpg$
+Allow: /*.png$
+Allow: /*.webp$
+
+# Social media bots (for better link previews)
+User-agent: Twitterbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: LinkedInBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: FacebookExternalHit
+Allow: /
+Crawl-delay: 1
+
+# Special rules for search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1

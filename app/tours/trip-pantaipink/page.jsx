@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import React from "react";
+import BackToHomeButton from "@/section/components/backhomebtn";
 
 export default function TripPantaiPink() {
     return (
@@ -63,19 +64,19 @@ export default function TripPantaiPink() {
                         </h2>
                         <div className="space-y-4">
                             <div className="bg-gray-100 p-4 rounded-lg">
-                                <span className="font-bold text-gray-900">2 Orang:</span> Rp 675.000 / pax
+                                <span className="font-bold text-gray-900">2 Orang:</span> Rp 675.000 / pack
                             </div>
                             <div className="bg-gray-100 p-4 rounded-lg">
-                                <span className="font-bold text-gray-900">3-4 Orang:</span> Rp 460.000 / pax
+                                <span className="font-bold text-gray-900">3-4 Orang:</span> Rp 460.000 / pack
                             </div>
                             <div className="bg-gray-100 p-4 rounded-lg">
-                                <span className="font-bold text-gray-900">5-6 Orang:</span> Rp 385.000 / pax
+                                <span className="font-bold text-gray-900">5-6 Orang:</span> Rp 385.000 / pack
                             </div>
                             <div className="bg-gray-100 p-4 rounded-lg">
-                                <span className="font-bold text-gray-900">7-10 Orang:</span> Rp 365.000 / pax
+                                <span className="font-bold text-gray-900">7-10 Orang:</span> Rp 365.000 / pack
                             </div>
                             <div className="bg-gray-100 p-4 rounded-lg">
-                                <span className="font-bold text-gray-900">11-15 Orang:</span> Rp 290.000 / pax
+                                <span className="font-bold text-gray-900">11-15 Orang:</span> Rp 290.000 / pack
                             </div>
                         </div>
                     </div>
@@ -140,6 +141,7 @@ export default function TripPantaiPink() {
                     <p className="text-gray-600 mt-4 text-sm">Respon cepat dalam 5 menit</p>
                 </div>
             </div>
+            <BackToHomeButton />
         </div>
     );
 }

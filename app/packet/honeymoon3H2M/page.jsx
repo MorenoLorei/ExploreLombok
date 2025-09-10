@@ -1,7 +1,8 @@
 "use client";
-import { useState } from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import LightboxImage from "@/section/components/imageopener";
+import BackToHomeButton from "@/section/components/backhomebtn";
 
 export default function PaketHoneymoon3D2N() {
     const [activePackage, setActivePackage] = useState("A");
@@ -375,6 +376,7 @@ export default function PaketHoneymoon3D2N() {
                     <p className="text-gray-600 mt-4 text-sm">Respon cepat dalam 5 menit</p>
                 </div>
             </div>
+            <BackToHomeButton />
         </div>
     );
 }

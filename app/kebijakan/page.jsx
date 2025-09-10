@@ -1,5 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
+import BackToHomeButton from "@/section/components/backhomebtn";
 
 const KebijakanPrivasi = () => {
     return (
@@ -198,6 +199,7 @@ const KebijakanPrivasi = () => {
                         </p>
                     </div>
                 </div>
+                <BackToHomeButton />
             </main>
         </>
     );

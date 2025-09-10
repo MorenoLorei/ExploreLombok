@@ -11,7 +11,7 @@ const CarRental = () => {
     useEffect(() => {
         const fetchProducts = async () => {
             try {
-                const response = await fetch("/data/carRental.json");
+                const response = await fetch("/data/CarRental.json");
                 if (!response.ok) throw new Error("Gagal memuat data");
                 const data = await response.json();
                 setProducts(data);
@@ -86,9 +86,9 @@ const CarRental = () => {
                                         className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                         loading="lazy"
                                         placeholder="blur"
-                                        blurDataURL="/placeholder-car.jpg"
+                                        blurDataURL="/placeholder.png"
                                         onError={(e) => {
-                                            e.currentTarget.src = "/placeholder-car.jpg";
+                                            e.currentTarget.src = "/placeholder.png";
                                         }}
                                     />
                                 </div>

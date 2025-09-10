@@ -87,9 +87,9 @@ const Paketlabuanbajo = () => {
                                         className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                         loading="lazy"
                                         placeholder="blur"
-                                        blurDataURL="/placeholder-paket.jpg"
+                                        blurDataURL="/placeholder.png"
                                         onError={(e) => {
-                                            e.currentTarget.src = "/placeholder-paket.jpg";
+                                            e.currentTarget.src = "/placeholder.png";
                                         }}
                                     />
                                 </div>

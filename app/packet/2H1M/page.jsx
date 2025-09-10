@@ -1,6 +1,7 @@
 "use client";
 import React from 'react';
 import LightboxImage from "@/section/components/imageopener";
+import BackToHomeButton from "@/section/components/backhomebtn";
 
 export default function LombokTourPackages() {
     return (
@@ -313,6 +314,7 @@ export default function LombokTourPackages() {
                     </a>
                 </div>
             </div>
+            <BackToHomeButton />
         </div>
     );
 }

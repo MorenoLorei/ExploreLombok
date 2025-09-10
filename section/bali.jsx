@@ -1,20 +1,28 @@
 "use client"
 import React, { useEffect, useState } from "react";
-import Image from "next/image";
 import Link from "next/link";
+import Image from "next/image";
 
-const Paket = () => {
+const BaliTour = () => {
     const [products, setProducts] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
     const [error, setError] = useState(null);
 
+    const baliTours = [
+        {
+            id: 1,
+            name: "TRIP BALI 3D2N",
+            description: "Pengalaman premium 3 hari mengunjungi destinasi terbaik Bali: dari pantai-pantai menakjubkan hingga warisan budaya",
+            price: "2.550.000",
+            imageUrl: "/tourimage/BALI.webp",
+            link: "/packet/trip-bali-3D2N"
+        }
+    ];
+
     useEffect(() => {
         const fetchProducts = async () => {
             try {
-                const response = await fetch("/data/paket.json");
-                if (!response.ok) throw new Error("Gagal memuat data");
-                const data = await response.json();
-                setProducts(data);
+                setProducts(baliTours);
             } catch (err) {
                 console.error("Error:", err);
                 setError(err.message);
@@ -52,16 +60,16 @@ const Paket = () => {
     }
 
     return (
-        <section className="py-16 bg-white" id="produk">
+        <section className="py-16 bg-white" id="bali-tour">
             <div className="container mx-auto px-4">
                 {/* Section Header */}
                 <div className="text-center mb-16">
                     <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 tracking-tight">
-                        PAKET TOUR LOMBOK
+                        PAKET TOUR BALI
                     </h2>
                     <div className="w-24 h-1 bg-black mx-auto rounded-full"></div>
                     <p className="mt-6 text-lg text-gray-600 max-w-3xl mx-auto">
-                        Temukan petualangan tak terlupakan di pulau indah Lombok dengan paket wisata eksklusif kami
+                        Temukan keindahan Pulau Dewata dengan paket wisata eksklusif kami
                     </p>
                 </div>
 
@@ -74,8 +82,8 @@ const Paket = () => {
                         >
                             {/* Image */}
                             <div className="relative h-56 overflow-hidden">
-                                <div className="absolute top-4 left-4 bg-gray-700 text-white text-sm font-bold px-3 py-1 rounded-full z-10">
-                                    PAKET TOUR
+                                <div className="absolute top-4 left-4 bg-orange-500 text-white text-sm font-bold px-3 py-1 rounded-full z-10">
+                                    BALI TOUR
                                 </div>
                                 <div className="w-full h-full bg-gray-100 flex items-center justify-center">
                                     <Image
@@ -85,10 +93,8 @@ const Paket = () => {
                                         height={300}
                                         className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                         loading="lazy"
-                                        placeholder="blur"
-                                        blurDataURL="/placeholder.png"
                                         onError={(e) => {
-                                            e.currentTarget.src = "/placeholder.png";
+                                            e.currentTarget.src = "/placeholder-tour.jpg";
                                         }}
                                     />
                                 </div>
@@ -108,7 +114,7 @@ const Paket = () => {
                                 {/* Button pinned to bottom */}
                                 <Link
                                     href={p.link}
-                                    className="w-full bg-black text-center text-white font-bold py-3 px-4 rounded-lg transition-all duration-300 hover:scale-[1.02] mt-auto"
+                                    className="w-full bg-orange-500 text-center text-white font-bold py-3 px-4 rounded-lg transition-all duration-300 hover:scale-[1.02] mt-auto"
                                 >
                                     Check detail
                                 </Link>
@@ -121,4 +127,4 @@ const Paket = () => {
     );
 };
 
-export default Paket;
+export default BaliTour;

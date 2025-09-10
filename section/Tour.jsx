@@ -86,9 +86,9 @@ const Tour = () => {
                           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                           loading="lazy"
                           placeholder="blur"
-                          blurDataURL="/placeholder-tour.jpg"
+                          blurDataURL="/placeholder.png"
                           onError={(e) => {
-                            e.currentTarget.src = "/placeholder-tour.jpg";
+                            e.currentTarget.src = "/placeholder.png";
                           }}
                       />
                     </div>

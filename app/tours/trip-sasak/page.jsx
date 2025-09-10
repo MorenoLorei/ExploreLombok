@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import React from "react";
+import BackToHomeButton from "@/section/components/backhomebtn";
 
 export default function TripSasakMandalika() {
     return (
@@ -70,19 +71,19 @@ export default function TripSasakMandalika() {
                         </h2>
                         <div className="space-y-4">
                             <div className="bg-gray-100 p-4 rounded-lg">
-                                <span className="font-bold text-gray-900">2 Orang:</span> Rp 410.000 / pax
+                                <span className="font-bold text-gray-900">2 Orang:</span> Rp 410.000 / pack
                             </div>
                             <div className="bg-gray-100 p-4 rounded-lg">
-                                <span className="font-bold text-gray-900">3-4 Orang:</span> Rp 330.000 / pax
+                                <span className="font-bold text-gray-900">3-4 Orang:</span> Rp 330.000 / pack
                             </div>
                             <div className="bg-gray-100 p-4 rounded-lg">
-                                <span className="font-bold text-gray-900">5-6 Orang:</span> Rp 280.000 / pax
+                                <span className="font-bold text-gray-900">5-6 Orang:</span> Rp 280.000 / pack
                             </div>
                             <div className="bg-gray-100 p-4 rounded-lg">
-                                <span className="font-bold text-gray-900">7-10 Orang:</span> Rp 245.000 / pax
+                                <span className="font-bold text-gray-900">7-10 Orang:</span> Rp 245.000 / pack
                             </div>
                             <div className="bg-gray-100 p-4 rounded-lg">
-                                <span className="font-bold text-gray-900">11-15 Orang:</span> Rp 230.000 / pax
+                                <span className="font-bold text-gray-900">11-15 Orang:</span> Rp 230.000 / pack
                             </div>
                         </div>
                     </div>
@@ -146,6 +147,7 @@ export default function TripSasakMandalika() {
                     <p className="text-gray-600 mt-4 text-sm">Respon cepat dalam 5 menit</p>
                 </div>
             </div>
+            <BackToHomeButton />
         </div>
     );
 }
