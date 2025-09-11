@@ -75,9 +75,6 @@ const Blog = () => {
                             >
                                 {/* Image */}
                                 <div className="relative h-48 overflow-hidden">
-                                    <div className="absolute top-4 left-4 bg-gray-700 text-white text-xs font-bold px-3 py-1 rounded-full z-10">
-                                        TOUR HARIAN
-                                    </div>
                                     <div className="w-full h-full bg-gray-100 flex items-center justify-center">
                                         <Image
                                             src={p.imageUrl}
