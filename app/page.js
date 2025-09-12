@@ -11,25 +11,27 @@ import SocialMediaSection from "@/section/section/social";
 import CarRental from "@/section/section/SewaMobil";
 import BaliTour from "@/section/section/bali";
 import Blog from "@/section/section/blog";
+import About from "@/section/section/about";
 
 export default function Main() {
     return (
         <>
-            <Navbar />
+            <Navbar/>
             <main>
-                <Hero />
-                <Tour />
-                <Paket />
-                <BaliTour />
-                <Paketlabuanbajo />
-                <HoneymoonPackages />
-                <CarRental />
-                <Blog />
-                <SocialMediaSection />
-                <Legalitas />
+                <Hero/>
+                <Tour/>
+                <Paket/>
+                <BaliTour/>
+                <Paketlabuanbajo/>
+                <HoneymoonPackages/>
+                <CarRental/>
+                <Blog/>
+                <SocialMediaSection/>
+                <About />
+                <Legalitas/>
             </main>
             <footer>
-                <Footer />
+                <Footer/>
             </footer>
         </>
     );

@@ -3,11 +3,11 @@ import "./globals.css";
 export const metadata = {
     title: "Explore Lombok | Paket Tour Lombok & Sewa Mobil Murah",
     description:
-        "Jelajahi keindahan Lombok dengan paket tour eksklusif dan layanan sewa mobil terpercaya. Nikmati petualangan tak terlupakan di Gili, Mandalika, dan Rinjani dengan harga terjangkau.",
+        "Temukan pesona Lombok dengan paket tour eksklusif & sewa mobil murah. Nikmati Gili, Mandalika, hingga Rinjani dan bali dengan pengalaman tak terlupakan.",
     icons: {
-        icon: "/favicon.ico", // ✅ keep favicon.ico inside /public
+        icon: "/favicon.ico",
         shortcut: "/favicon.ico",
-        apple: "/explorelombok.png", // for iOS home screen
+        apple: "/explorelombok.png",
     },
     authors: [{ name: "Explore Lombok" }],
     robots: {
@@ -15,21 +15,20 @@ export const metadata = {
         follow: true,
     },
     alternates: {
-        canonical: "https://explorelombokbali.com",
+        canonical: "https://www.explorelombokbali.com",
         languages: {
-            "id-ID": "https://explorelombokbali.com",
-            "en-US": "https://explorelombokbali.com/en",
+            "id-ID": "https://www.explorelombokbali.com"
         },
     },
     openGraph: {
         title: "Explore Lombok | Paket Tour & Sewa Mobil Murah",
         description:
-            "Jelajahi surga tersembunyi Indonesia. Kami menyediakan paket wisata dan sewa mobil terlengkap di Lombok.",
-        url: "https://explorelombokbali.com",
+            "Temukan pesona Lombok dengan paket tour eksklusif & sewa mobil murah. Nikmati Gili, Mandalika, hingga Rinjani dan bali dengan pengalaman tak terlupakan.",
+        url: "https://www.explorelombokbali.com",
         siteName: "Explore Lombok",
         images: [
             {
-                url: "https://explorelombokbali.com/bg-opengraph.png",
+                url: "https://www.explorelombokbali.com/ocean.webp",
                 width: 1200,
                 height: 630,
                 alt: "Pemandangan indah Lombok, Indonesia",
@@ -42,15 +41,16 @@ export const metadata = {
         card: "summary_large_image",
         title: "Explore Lombok | Paket Tour Lombok & Sewa Mobil Murah",
         description:
-            "Jelajahi surga tersembunyi Indonesia. Kami menyediakan paket wisata dan sewa mobil terlengkap di Lombok.",
+            "Temukan pesona Lombok dengan paket tour eksklusif & sewa mobil murah. Nikmati Gili, Mandalika, hingga Rinjani dan bali dengan pengalaman tak terlupakan.",
         images: [
             {
-                url: "https://explorelombokbali.com/bg-opengraph.png",
+                url: "https://www.explorelombokbali.com/ocean.webp",
                 alt: "Explore Lombok image",
             },
         ],
     },
 };
+
 
 export default function RootLayout({ children }) {
     return (
@@ -66,8 +66,8 @@ export default function RootLayout({ children }) {
                     "@context": "https://schema.org",
                     "@type": "TravelAgency",
                     name: "Explore Lombok",
-                    url: "https://explorelombokbali.com",
-                    logo: "https://explorelombokbali.com/explorelombok.png",
+                    url: "https://www.explorelombokbali.com",
+                    logo: "https://www.explorelombokbali.com/explorelombok.png",
                     description:
                         "Paket tour Lombok eksklusif & sewa mobil murah di Lombok.",
                     address: {
@@ -91,7 +91,7 @@ export default function RootLayout({ children }) {
                         "@type": "Offer",
                         priceCurrency: "IDR",
                         availability: "https://schema.org/InStock",
-                        url: "https://explorelombokbali.com/packet",
+                        url: "https://www.explorelombokbali.com/packet",
                     },
                 }),
             }}

@@ -5,7 +5,7 @@
     "description": "Jelajahi keajaiban alam Taman Nasional Komodo. Paket ini adalah petualangan singkat namun tak terlupakan, membawa Anda pada pengalaman yang memukau dan pemandangan ikonik.",
     "price": "3.250.000",
     "imageUrl": "/tourimage/PKTKM3H2M.jpg",
-    "link": "/packet/Tour-komodo3H2M"
+    "link": "/packet/Tour-komodo3H2M.html"
   },
   {
     "id": 2,
@@ -13,6 +13,6 @@
     "description": "Selami lebih dalam keindahan Komodo. Habiskan lebih banyak waktu untuk menjelajahi pulau-pulau tersembunyi, melihat satwa liar langka, dan menikmati keindahan alam yang tak tertandingi.",
     "price": "5.500.000",
     "imageUrl": "/tourimage/PKTKM4H3M.jpg",
-    "link": "/packet/Tour-komodo4H3M"
+    "link": "/packet/Tour-komodo4H3M.html"
   }
 ]

@@ -5,7 +5,7 @@
     "name": "PAKET TOUR 2H1M",
     "description": "Rasakan pengalaman singkat namun tak terlupakan, menjelajahi destinasi terbaik Lombok dalam waktu 2 hari.",
     "price": "869.000",
-    "link": "packet/2H1M"
+    "link": "packet/2H1M.html"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "name": "PAKET TOUR 3H2M",
     "description": "Temukan perpaduan sempurna antara budaya, alam, dan petualangan. Paket ideal untuk merasakan keindahan Lombok secara menyeluruh.",
     "price": "1.650.000",
-    "link": "packet/3H2M"
+    "link": "packet/3H2M.html"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "name": "PAKET TOUR 4H3M",
     "description": "Nikmati eksplorasi yang lebih dalam. Paket 4 hari ini dirancang untuk Anda yang ingin merasakan setiap sudut pesona Lombok.",
     "price": "2.150.000",
-    "link": "packet/4H3M"
+    "link": "packet/4H3M.html"
   },
   {
     "id": 4,
@@ -29,6 +29,6 @@
     "name": "PAKET TOUR 5H4M",
     "description": "Paket paling lengkap untuk liburan impian Anda. Petualangan 5 hari penuh untuk menikmati seluruh keindahan Lombok.",
     "price": "3.100.000",
-    "link": "packet/5H4M"
+    "link": "packet/5H4M.html"
   }
 ]

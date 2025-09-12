@@ -5,7 +5,7 @@
     "description": "Melarikan diri ke dunia yang penuh romansa. Paket ini dirancang untuk pasangan agar dapat bersantai dan terhubung kembali, dengan pemandangan menakjubkan dan momen intim yang menciptakan kenangan tak terlupakan seumur hidup.",
     "price": "4.750.000",
     "imageUrl": "/tourimage/HNM.jpg",
-    "link": "/packet/honeymoon3H2M"
+    "link": "/packet/honeymoon3H2M.html"
   },
   {
     "id": 2,
@@ -13,6 +13,6 @@
     "description": "Tingkatkan romantisme Anda. Paket yang diperpanjang ini menawarkan lebih banyak waktu untuk merayakan cinta Anda di tempat yang benar-benar ajaib.",
     "price": "5.500.000",
     "imageUrl": "/tourimage/HNM2.jpg",
-    "link": "/packet/honeymoon4H3M"
+    "link": "/packet/honeymoon4H3M.html"
   }
 ]

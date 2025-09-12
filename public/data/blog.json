@@ -4,13 +4,13 @@
     "imageUrl": "/rinjani.webp",
     "name": "Panduan pemula di lombok",
     "description": "Panduan untuk pemula yang ingin berpetualang di lombok",
-    "link": "blog/panduan-pemula-di-lombok"
+    "link": "blog/panduan-pemula-di-lombok.html"
   },
   {
     "id": 2,
     "imageUrl": "/rinjani.webp",
     "name": "Tips menikmati lombok",
     "description": "terkadang jalan jalan saja tidak cukup, anda harus tau agar tips ini untuk benar benar menikmati lombok!",
-    "link": "blog/tips-menikmati-lombok"
+    "link": "blog/tips-menikmati-lombok.html"
   }
 ]
